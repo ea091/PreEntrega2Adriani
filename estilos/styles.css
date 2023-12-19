@@ -1,0 +1,194 @@
+:root{
+    --primary: #ededed;
+    --secondary: #eead8d;
+    --perso: #f0834d;
+    --perso1: #9284b8;
+    --text: #000000;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #ededed;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header_container{
+    height: 650px;
+    width: 100vw;
+    display:flex;
+    flex-direction:column;
+    background-image: url("../recursos/imgs/Portada_ppal_Lubara.webp");
+    background-size: cover;
+    
+}
+
+.header{
+    margin: auto;
+}
+
+.title_principal{
+    color: #ffffff
+}
+
+main{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75vw;
+    
+}
+
+.article_container{
+    width: 75%;
+    margin: auto;
+}
+
+img{
+    width: 100px;
+    height: 100px
+}
+
+.nav-principal{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, var(--perso) 30%, var(--perso1) );
+    height: 100px;
+}
+.logo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_nav{
+    height: 55px;
+    
+}
+
+.menu{
+    display: flex;
+    width: 80%;
+    overflow:
+}
+
+.menu_list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.menu-list_drop{
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    background: rgb(151,104,126);
+    background: linear-gradient(90deg, rgba(151,104,126,1) 11%, rgba(130,98,137,1) 81%);
+    width: 220px;
+    padding: 20px;
+}
+
+.menu-list_drop li{
+    padding: 10px;
+}
+
+.menu-li_drop:hover .menu-list_drop{
+    display: block;
+}
+
+
+.menu-li_a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu-li{
+    display: inline-block;
+    padding: 50px;
+    
+}
+
+.article_titulo{
+    margin: 90px 0 20px 0;
+}
+
+.article_titulo h2{
+    color: red;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-left: 24px;
+}
+
+.servicios{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.servicios_soluciones h3{
+    color: #000000;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.servicios-container_soluciones h4{
+    color: #000000;
+    text-align: center;
+    margin:0;
+    padding:0;
+    font-weight: 600;
+    margin-bottom:10px;
+}
+
+.servicios-container_soluciones p {
+    text-align: center;
+    color:#000000;
+    margin:0;
+    padding:0;
+    line-height:30px;
+}
+
+.servicios-container_soluciones{
+    background-color: #FFFFFFA6;
+    margin: 0 5px 0 5px;
+    padding: 25px;
+    border-radius: 30px;
+    max-width: 230px;
+}
+
+.beneficios-container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.beneficios-col_1{
+    width: 25%;
+}
+
+.beneficios-col_2{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: red;
+}
+
+.beneficios-container{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+
+.beneficios-container_recursos{
+    display: flex;
+    flex-direction: column;
+}
