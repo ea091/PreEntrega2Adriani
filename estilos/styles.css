@@ -399,8 +399,11 @@ img{
     height: 90%;
 }
 .paso-img{
-    width: 100%;
-    height: 100%
+    width: 50%;
+    height: 70%;
+}
+.paso-img_container{
+    text-align: center;
 }
 @media (max-width: 480px){
     .nav-principal{
@@ -467,5 +470,9 @@ img{
         margin-top: 10px;
         background: linear-gradient(90deg, var(--perso) 30%, var(--perso1) );
         border-radius: 10px;
+    }
+    .paso-img{
+        width: 100%;
+        height: 100%
     }
 }
