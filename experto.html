@@ -7,114 +7,282 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <title>Lubara web design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Lubara Experto</title>
 </head>
 <body>
     <nav class="nav-principal">
         <div class="logo">
-            <a href="./index.html"><img src="./recursos/imgs/Logo LUBARA.webp" alt="logo_lubara"></a>
+            <a href="./index.html"><img src="./recursos/imgs/Logo LUBARA.webp" alt="logo_lubara" class="logo_nav"></a>
         </div>
         <div class="menu">
-            <ul>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Servicios</a>
-                    <ul>
-                        <li><a href="./emprendedor.html">Pack emprendedor</a></li>
-                        <li><a href="./experto.html">Pack experto</a></li>
-                        <li><a href="./personalizado.html">Pack personalizado</a></li>
+            <ul class="menu_list">
+                <li class="menu-li"><a href="#" class="menu-li_a">Nosotros</a></li>
+                <li class="menu-li menu-li_drop"><a href="#" class="menu-li_a menu-drop">Servicios</a>
+                    <ul class="menu-list_drop">
+                        <li><a href="./emprendedor.html" class="menu-li_a">Pack emprendedor</a></li>
+                        <li><a href="./experto.html" class="menu-li_a">Pack experto</a></li>
+                        <li><a href="./personalizado.html" class="menu-li_a">Pack personalizado</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li class="menu-li"><a href="#" class="menu-li_a">Portfolio</a></li>
+                <li class="menu-li"><a href="#" class="menu-li_a">Contacto</a></li>
             </ul>
         </div>
     </nav>
-    <main>
-        <div></div>
-        <header class="header_container">
-            <div class="header">
-                <div class="title_principal">
-                    <h1>Hola!<br>
-                        Somos Lubara, un equipo de diseñadores y desarrolladores web<br>
-                        <span> y nos apasiona diseñar paginas web</span>
-                    </h1>
-                </div>
+    <!-- menu hamburguesa -->
+    <div class="menu-hamburguesa">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4 navbar-eze">
+                <ul class="menu-mobile">
+                    <li><a href="#">Nosotros</a></li>
+                    <li ><a href="#">Servicios</a>
+                        <ul class="menu-mobile_secondary">
+                            <li><a href="./emprendedor.html">Pack emprendedor</a></li>
+                            <li><a href="./experto.html">Pack experto</a></li>
+                            <li><a href="./personalizado.html">Pack personalizado</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
             </div>
-        </header>
-        <div class="article_container">
-            <article>
-                <h3>Nuestro portfolio</h3>
-                <img src="./recursos/imgs/angel.jpg" alt="portfolio1">
-                <img src="./recursos/imgs/blog de cafe.png" alt="portfolio2">
-                <img src="./recursos/imgs/ea freelancer.png" alt="portfolio3">
-                <img src="./recursos/imgs/LMG.jpeg" alt="portfolio4">
+        </div>
+        <nav class="navbar navbar-dark bg-dark navbar-eze">
+            <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            </div>
+        </nav>
+    </div>
+      <!-- Sidenav -->
+      <!-- fin de menu hamburguesa -->
+    <header class="header_container">
+        <div class="header">
+            <div class="title_principal">
+                <h1>Pack<br>
+                    Experto
+                </h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="portfolio">
+            <h2>PORTFOLIO ONLINE</h2>
+            <p>¿Eres profesional, pero no sabes cómo mostrar tu potencial a posibles clientes?<br>
+                Si eres: Arquitecto, Fontanero, Fotógrafo, Freelance, o Pladurista; este tipo de sitio web es la mejor opción.<br>
+
+                Aquí podrás mostrar todos tus trabajos en una sola página, contar sobre tus servicios, quién eres, y cómo te pueden contactar.<br> Con esto ganarás presencia online e incrementarán las contrataciones.<br>
+                
+                ¡Anímate!</p>
+        </div>
+        <div class="tarjetas">
+            <div class="tarjeta-portfolio">
+                <h3>PRINCIPIANTE</h3>
+                <p>€529<br><span>IVA incluido</span></p>
+                <ul>
+                    <li>Estilo estándar</li>
+                    <li>Hasta 3 páginas</li>
+                    <li>Hasta 3 secciones cada una</li>
+                    <li>Web móvil (Responsive)</li>
+                    <li>Posicionamiento global</li>
+                    <li>Redes sociales integradas</li>
+                    <li>Carga de contenido (hasta 5 trabajos)</li>
+                </ul>
+            </div>
+            <div class="tarjeta-portfolio">
+                <h3>INTERMEDIO</h3>
+                <p>€875<br><span>IVA incluido</span></p>
+                <ul>
+                    <li>Estilo personalizado</li>
+                    <li>Hasta 5 secciones cada una</li>
+                    <li>Hasta 5 páginas</li>
+                    <li>Web móvil (Responsive)</li>
+                    <li>Posicionamiento global</li>
+                    <li>Redes sociales integradas</li>
+                    <li>Formulario de contacto</li>
+                    <li>Carga de contenido (hasta 15 trabajos)</li>
+                </ul>
+            </div>
+            <div class="tarjeta-portfolio">
+                <h3>AVANZADO</h3>
+                <p>€1229<br><span>IVA incluido</span></p>
+                <ul>
+                    <li>Estilo personalizado</li>
+                    <li>Hasta 5 secciones cada una</li>
+                    <li>Hasta 10 páginas</li>
+                    <li>Web móvil (Responsive)</li>
+                    <li>Posicionamiento global</li>
+                    <li>Redes sociales integradas</li>
+                    <li>Formulario de contacto</li>
+                    <li>Textos publicitarios</li>
+                    <li>Carga de contenido (hasta 30 trabajos)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="presencia">
+            <h2>PRESENCIA ONLINE</h2>
+            <p>¿Tienes un local comercial, pero tus clientes no te encuentran?<br>
+
+                Entonces este tipo de sitio web es la opción indicada para ti.<br>
+                
+                Lo que necesitas es una tarjeta personal que esté a la vista de todos en todo momento. Aquí podrás mostrar tu marca, contar sobre tu negocio, cómo te pueden contactar, y dónde te pueden encontrar, sin tener que estar actualizando precios y/o productos constantemente.<br>
+                
+                ¡Es ideal!
+                </p>
+        </div>
+        <div class="tarjetas">
+            <div class="tarjeta-portfolio">
+                <h3>PRINCIPIANTE</h3>
+                <p>€349<br><span>IVA incluido</span></p>
+                <ul>
+                    <li>Estilo estándar</li>
+                    <li>One page o Home page</li>
+                    <li>Hasta 5 secciones cada una</li>
+                    <li>Web móvil (Responsive)</li>
+                    <li>Posicionamiento global</li>
+                    <li>Redes sociales integradas</li>
+                    <li>Carga de contenido (hasta 5 trabajos)</li>
+                </ul>
+            </div>
+            <div class="tarjeta-portfolio">
+                <h3>INTERMEDIO</h3>
+                <p>€525<br><span>IVA incluido</span></p>
+                <ul>
+                    <li>Estilo personalizado</li>
+                    <li>Hasta 3 páginas</li>
+                    <li>Hasta 5 secciones cada una</li>
+                    <li>Web móvil (Responsive)</li>
+                    <li>Posicionamiento global</li>
+                    <li>Redes sociales integradas</li>
+                    <li>Formulario de contacto</li>
+                    <li>Google maps</li>
+                </ul>
+            </div>
+            <div class="tarjeta-portfolio">
+                <h3>AVANZADO</h3>
+                <p>€699<br><span>IVA incluido</span></p>
+                <ul>
+                    <li>Estilo personalizado</li>
+                    <li>Hasta 5 páginas</li>
+                    <li>Hasta 5 secciones cada una</li>
+                    <li>Web móvil (Responsive)</li>
+                    <li>Posicionamiento global</li>
+                    <li>Redes sociales integradas</li>
+                    <li>Formulario de contacto</li>
+                    <li>Textos publicitarios</li>
+                    <li>Google maps</li>
+                </ul>
+            </div>
+        </div>
+        <div class="metodoTrabajo">
+            <h2>CÓMO TRABAJAMOS</h2>
+            <img src="./recursos/imgs/Proceso paso a paso.webp" alt="">
+        </div>
+                        <!--BOOTSTRAP CAROUSEL-->
+
+        <div class="article_titulo"><h3>Algunos de nuestros trabajos</h3></div>       
+        <div id="carouselExampleControls" class="carousel slide carousel-lubara" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./recursos/imgs/angel.jpg" class="d-block w-100 foto-slide1" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./recursos/imgs/blog de cafe.png" class="d-block w-100 foto-slide1" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./recursos/imgs/ea freelancer.png" class="d-block w-100 foto-slide1" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        <!--BOOTSTRAP CAROUSEL-->
             </article>
-            <article>
+            <article class="nosotros">
                 
                 <h3>Sobre nosotros</h3>
-                <div><img src="./recursos/imgs/Logo ppal gris_1.png" alt="nosotros"></div>
-                <div>
-                    <h4>¡Hola! Somos Ludmila y Ezequiel,<br>
-                        fundadores de Lubara</h4>
-                    <p>Lubara es una fusión de nuestra pasión por la programación, la creación de contenido, diseñar páginas web y la redacción de textos publicitarios. Creemos que la combinación de estos conocimientos es fundamental para crear un sitio web exitoso que haga rendir la inversión.<br>
+                <div class="nosotros-col_container">
+                    <div class="nosotros-img_container"><img src="./recursos/imgs/Logo ppal gris_1.png" alt="nosotros"></div>
+                    <div class="nosotros-p_container">
+                        <h4>¡Hola! Somos Ludmila y Ezequiel,<br>
+                            fundadores de Lubara</h4>
+                        <p>Lubara es una fusión de nuestra pasión por la programación, la creación de contenido, diseñar páginas web y la redacción de textos publicitarios. Creemos que la combinación de estos conocimientos es fundamental para crear un sitio web exitoso que haga rendir la inversión.<br>
 
-                        Nuestro objetivo es poner la tecnología a tu alcance, transformarla en tu aliado y en el motor que hará crecer tu marca.<br>
+                            Nuestro objetivo es poner la tecnología a tu alcance, transformarla en tu aliado y en el motor que hará crecer tu marca.<br>
 
-                        Nosotros nos encargaremos de digitalizar tu negocio y de enseñarte a gestionarlo para que no tengas que depender de nadie.<br>
+                            Nosotros nos encargaremos de digitalizar tu negocio y de enseñarte a gestionarlo para que no tengas que depender de nadie.<br>
 
-                        Cuando eliges trabajar con nosotros, estás eligiendo calidad, profesionalismo, y atención completamente personalizada.<br>
+                            Cuando eliges trabajar con nosotros, estás eligiendo calidad, profesionalismo, y atención completamente personalizada.<br>
 
-                        Todo lo que tú y tu marca se merecen.</p>
+                            Todo lo que tú y tu marca se merecen.</p>
+                    </div>
                 </div>
             </article>
         </div>
-        <div class="contacto">
-            <form action="post">
+    </main>
+    <div class="contacto-container">
+        <div class="form-title"><h3>hagamos crecer tu negocio,<br>
+        <span>hablemos sobre tu proyecto</span></h3></div>
+        <div class="form-container">
+            <form action="post" class="formulario">
                 <ul>
                     <li><label for="nombre"></label>
-                    <input type="text"placeholder="Nombre" id="nombre"></li>
+                    <input type="text"placeholder="Nombre" id="nombre" class="contacto-style"></li>
                     <li><label for="email"></label>
-                    <input type="mail" placeholder="E-mail"></li>
+                    <input type="mail" placeholder="E-mail" class="contacto-style"></li>
                     <li><label for="telefono"></label>
-                    <input type="tel" id="telefono" placeholder="Telefono (opcional)"></li>
+                    <input type="tel" id="telefono" placeholder="Telefono (opcional)" class="contacto-style"></li>
                     <li><label for="opcion"></label>
-                    <select name="opciones" id="opciones">
+                    <select name="opciones" id="opciones" class="contacto-style">
                         <option value="consulta">consulta</option>
                         <option value="comerciante">Pack comerciante</option>
                         <option value="experto">Pack experto</option>
                         <option value="personalizado">Personalizado</option>
                     </select></li>
                     <li><label for="text_area"></label>
-                    <textarea name="text-area" id="" cols="30" rows="10"></textarea></li>
+                    <textarea name="text-area" id="" cols="30" rows="10" class="contacto-style"></textarea></li>
                     <li><label for="terminos"></label>
                     <input type="checkbox" name="" id="">He leido y acepto<a href="#"> los terminos y condiciones</a></li>
                 </ul>
             </form>
         </div>
-    </main>
+    </div>
     <footer>
         <div class="footer">
-            <div class="footer_contacto">
-                <div><img src="#" alt="logo_footer"></div>
-                <div>
-                    <ul>
-                        <li><p>Teléfono: +34 611 41 78 65</p></li>
-                        <li><p>Whatsapp: +34 611 75 15 89</p></li>
-                        <li><p>E-mail: info@lubarawebdesign.com</p></li>
-                        <li><p>Málaga, Andalucía, España</p></li>
-                    </ul>
+            <div class="footer-container">
+                    <div class="footer_logo"><img src="./recursos/imgs/Logo ppal gris_1.png" alt="logo_footer"></div>
+                    <div class="footer_contacto">
+                        <ul>
+                            <li><p>Teléfono: +34 611 41 78 65</p></li>
+                            <li><p>Whatsapp: +34 611 75 15 89</p></li>
+                            <li><p>E-mail: info@lubarawebdesign.com</p></li>
+                            <li><p>Málaga, Andalucía, España</p></li>
+                        </ul>
+                    </div>
+                    <div class="footer_redes">
+                        <a href="https://facebook.com"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 2a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -.883 .993l-.117 .007h-3v1h3a1 1 0 0 1 .991 1.131l-.02 .112l-1 4a1 1 0 0 1 -.858 .75l-.113 .007h-2v6a1 1 0 0 1 -.883 .993l-.117 .007h-4a1 1 0 0 1 -.993 -.883l-.007 -.117v-6h-2a1 1 0 0 1 -.993 -.883l-.007 -.117v-4a1 1 0 0 1 .883 -.993l.117 -.007h2v-1a6 6 0 0 1 5.775 -5.996l.225 -.004h3z" stroke-width="0" fill="currentColor" /></svg></a>
+                        <a href="https://instagram.com"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /><path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M16.5 7.5l0 .01" /></svg></a>
+                    </div>
+                
+                <div class="footer_links">
+                    <a href="#">Politica de cookies</a>
+                    <a href="#">Politica de privacidad</a>
+                    <a href="#">Aviso legal</a>
                 </div>
-                <div>
-                    <a href="https://facebook.com"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 2a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -.883 .993l-.117 .007h-3v1h3a1 1 0 0 1 .991 1.131l-.02 .112l-1 4a1 1 0 0 1 -.858 .75l-.113 .007h-2v6a1 1 0 0 1 -.883 .993l-.117 .007h-4a1 1 0 0 1 -.993 -.883l-.007 -.117v-6h-2a1 1 0 0 1 -.993 -.883l-.007 -.117v-4a1 1 0 0 1 .883 -.993l.117 -.007h2v-1a6 6 0 0 1 5.775 -5.996l.225 -.004h3z" stroke-width="0" fill="currentColor" /></svg></a>
-                    <a href="https://instagram.com"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /><path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M16.5 7.5l0 .01" /></svg></a>
-                </div>
-            </div>
-            <div class="footer_links">
-                <a href="#">Politica de cookies</a>
-                <a href="#">Politica de privacidad</a>
-                <a href="#">Aviso legal</a>
-            </div>
+        </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
 </body>
 </html>
