@@ -11,7 +11,7 @@
     margin:0;
     padding: 0;
 }
-body{
+.main-style{
     background-color: var(--primary);
     font-family: 'Raleway', sans-serif;
 }
@@ -27,12 +27,58 @@ body{
 }
 
 .header{
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.title_principal{
-    color: #ffffff
+.titulo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    height: 100%;
 }
+.typewriter-text {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite;
+    
+}
+
+.typing-effect{
+    background-color: #eead8d;
+    font-size: 30px!important;
+}
+.titulo-principal{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #ffffff;
+    }
+}
+
+
 
 main{
     margin: auto;
@@ -136,12 +182,16 @@ img{
     grid-template-columns: 25% 25% 25% 25%;
 }
 
+.servicios-container_soluciones{
+    background-color: red;
+}
 .servicios_soluciones h3{
     color: #000000;
     font-size: 25px;
     font-weight: 600;
 
 }
+
 
 .servicios-container_soluciones h4{
     color: #000000;
@@ -161,7 +211,8 @@ img{
 }
 
 .servicios-container_soluciones{
-    background-color: #FFFFFFA6;
+    background-color: white;
+    opacity: 3;
     margin: 0 5px 0 5px;
     padding: 25px;
     border-radius: 30px;
@@ -245,7 +296,8 @@ img{
 
 
 .packs-right{
-    background: linear-gradient(180deg, var(--perso) 30%, var(--perso1) );
+    background: linear-gradient(180deg, var(--secondary) , var(--perso1) 100%);
+    padding: 29px;
     display: grid;
     grid-template-areas: 
     "a a a a b b b b"
@@ -256,19 +308,21 @@ img{
 
 .packs-right_1{
     grid-area: a;
-    width: 50%;
+    width: 100%;
     height: 100%;
+    background-color: #FFFFFF85;
 }
 
 .packs-right_2{
     grid-area: b;
     width: 100%;
     height: 100%;
+    background-color: #FFFFFF85;
 }
 .packs-right_3{
     grid-area: c;
     width: 50%;
-    
+    background-color: #FFFFFF85;
 }
 
 .foto-slide1{
@@ -476,3 +530,8 @@ img{
         height: 100%
     }
 }
+
+
+
+
+
