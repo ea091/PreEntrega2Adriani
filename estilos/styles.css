@@ -1,20 +1,7 @@
-:root {
-  --primary:#ededed;
-  --secondary:#eead8d;
-  --perso:#f0834d;
-  --perso1:#9284b8;
-  --text:#000000;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-.main-style {
-  background-color: var(--primary);
-  font-family: "Raleway", sans-serif;
 }
 
 .header_container {
@@ -77,29 +64,10 @@
     border-color: #ffffff;
   }
 }
-main {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 75vw;
-}
-
-.article_container {
-  width: 75%;
-  margin: auto;
-  margin-top: 90px;
-}
-
-img {
-  width: 100px;
-  height: 100px;
-}
-
 .nav-principal {
   display: flex;
   justify-content: space-between;
-  background: linear-gradient(90deg, var(--perso) 30%, var(--perso1));
+  background: linear-gradient(90deg, #f0834d 30%, #9284b8);
   height: 100px;
 }
 
@@ -154,19 +122,58 @@ img {
   padding: 50px;
 }
 
+.menu-hamburguesa {
+  display: none;
+}
+
+.navbar-eze {
+  background: linear-gradient(90deg, #f0834d 30%, #9284b8);
+}
+
+.menu-mobile, .menu-mobile_secondary {
+  list-style: none;
+}
+
+.menu-mobile a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.menu-mobile a:hover {
+  text-decoration: underline;
+}
+
+.main-style {
+  background-color: #ededed;
+  font-family: "Raleway", sans-serif;
+}
+
+main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75vw;
+}
+
+.article_container {
+  width: 75%;
+  margin: auto;
+  margin-top: 90px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
 .article_titulo {
   margin: 90px 0 20px 0;
 }
 .article_titulo h2 {
-  color: red;
   font-weight: 200;
   text-transform: uppercase;
   font-size: 16px;
   margin-left: 24px;
-}
-
-.article_container_beneficios {
-  margin-top: 90px;
 }
 
 .servicios {
@@ -206,6 +213,10 @@ img {
   margin: 0;
   padding: 0;
   line-height: 30px;
+}
+
+.article_container_beneficios {
+  margin-top: 90px;
 }
 
 .columns-container {
@@ -275,7 +286,7 @@ img {
 }
 
 .packs-right {
-  background: linear-gradient(180deg, var(--secondary), var(--perso1) 100%);
+  background: linear-gradient(180deg, #eead8d, #9284b8 100%);
   padding: 29px;
   display: grid;
   grid-template-areas: "a a a a b b b b" "c c c c c c c c";
@@ -303,18 +314,8 @@ img {
   background-color: rgba(255, 255, 255, 0.5215686275);
 }
 
-.foto-slide1 {
-  width: 100%;
-  height: 100%;
-}
-
-.carousel-lubara {
-  width: 75%;
-  margin: auto;
-}
-
 .carousel-control-prev-icon, .carousel-control-next-icon {
-  background-color: var(--perso1);
+  background-color: #9284b8;
 }
 
 .nosotros {
@@ -342,7 +343,7 @@ img {
   justify-content: center;
   flex-direction: column;
   width: 100vw;
-  background: linear-gradient(90deg, var(--secondary) 30%, var(--perso1));
+  background: linear-gradient(90deg, #eead8d 30%, #9284b8);
   margin-top: 90px;
 }
 
@@ -398,32 +399,11 @@ img {
   justify-content: space-between;
 }
 
-.menu-hamburguesa {
-  display: none;
-}
-
-.navbar-eze {
-  background: linear-gradient(90deg, var(--perso) 30%, var(--perso1));
-}
-
-.menu-mobile, .menu-mobile_secondary {
-  list-style: none;
-}
-
-.menu-mobile a {
-  color: #ffffff;
-  text-decoration: none;
-}
-.menu-mobile a:hover {
-  text-decoration: underline;
-}
-
-/* PAGINA EMPRENDEDOR */
 .tarjetas {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background: linear-gradient(90deg, var(--perso) 30%, var(--perso1));
+  background: linear-gradient(90deg, #f0834d 30%, #9284b8);
   border-radius: 10px;
 }
 
@@ -503,7 +483,7 @@ img {
   }
   .tarjeta-mobile {
     margin-top: 10px;
-    background: linear-gradient(90deg, var(--perso) 30%, var(--perso1));
+    background: linear-gradient(90deg, #f0834d 30%, #9284b8);
     border-radius: 10px;
   }
   .paso-img {

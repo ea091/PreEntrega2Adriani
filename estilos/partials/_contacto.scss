@@ -1,0 +1,32 @@
+.contacto-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    background: linear-gradient(90deg, $secondary 30%, $perso1);
+    margin-top: 90px;
+  }
+  
+  .form-title {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 75%;
+  }
+  
+  .formulario {
+    width: 50%;
+  
+    ul {
+      list-style-type: none;
+    }
+  }
+  
+  .contacto-style {
+    width: 100%;
+  }

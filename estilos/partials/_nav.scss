@@ -1,0 +1,79 @@
+.nav-principal {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, $perso 30%, $perso1);
+    height: 100px;
+  }
+  
+  .logo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo_nav {
+    height: 55px;
+  }
+  
+  .menu {
+    display: flex;
+    width: 80%;
+  }
+  
+  .menu_list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+  }
+  
+  .menu-list_drop {
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    background: rgb(151, 104, 126);
+    background: linear-gradient(90deg, rgba(151, 104, 126, 1) 11%, rgba(130, 98, 137, 1) 81%);
+    width: 220px;
+    padding: 20px;
+  
+    li {
+      padding: 10px;
+    }
+  }
+  
+  .menu-li_drop:hover .menu-list_drop {
+    display: block;
+  }
+  
+  .menu-li_a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .menu-li {
+    display: inline-block;
+    padding: 50px;
+  }
+
+  .menu-hamburguesa {
+    display: none;
+  }
+  
+  .navbar-eze {
+    background: linear-gradient(90deg, $perso 30%, $perso1);
+  }
+  
+  .menu-mobile, .menu-mobile_secondary {
+    list-style: none;
+  }
+  
+  .menu-mobile a {
+    color: #ffffff;
+    text-decoration: none;
+  
+    &:hover {
+      text-decoration: underline;
+    }
+  }

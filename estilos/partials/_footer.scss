@@ -1,0 +1,29 @@
+.footer-container {
+    display: grid;
+    grid-template-areas: "d d d e e e f f f" "g g g g g g g g g";
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .footer_logo {
+    grid-area: d;
+  }
+  
+  .footer_contacto {
+    grid-area: e;
+  }
+  
+  .footer_redes {
+    grid-area: f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer_links {
+    grid-area: g;
+    display: flex;
+    justify-content: space-between;
+  }
+  

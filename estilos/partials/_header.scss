@@ -1,0 +1,64 @@
+.header_container {
+    height: 650px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../recursos/imgs/Portada_ppal_Lubara.webp");
+    background-size: cover;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .titulo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    height: 100%;
+  }
+  
+  .typewriter-text {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end infinite;
+  }
+  
+  .typing-effect {
+    background-color: #eead8d;
+    font-size: 30px !important;
+  }
+  
+  .titulo-principal {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+  
+    50% {
+      border-color: #ffffff;
+    }
+  }
+  
