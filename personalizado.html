@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>Lubara Emprendedor</title>
+    <title>Lubara Personalizado</title>
 </head>
 <body class="main-style">
     <nav class="nav-principal">
@@ -60,135 +60,83 @@
       <!-- fin de menu hamburguesa -->
     <header class="header_container">
         <div class="titulo-container">
-                <h1 class="titulo-principal">Pack<br><span class="typewriter-text lead typing-effect">emprendedor</span></h1>
+            <h1 class="titulo-principal">Pack<br><span class="typewriter-text lead typing-effect">personalizado</span></h1>
             </div>
         </div>
     </header>
-
     <main>
-        <div class="tienda">
-            <h2>TIENDA ONLINE</h2>
-            <p>¿Quieres tener tu tienda abierta al público las 24hs del día y los 7 días de la semana?<br>
+        <div>
+            <h2 class="personalizado-h1">ARMA TU PRESUPUESTO</h2>
+            <div class="personalizado-text">
+                <h3 "nosotros-perso-h1"><span class="personalizado-bold">¿Ninguna de las opciones anteriores cuadra con tu negocio?</span></h3>
+                <p>
+                Entonces aquí, en el pack personalizado te dejamos un simulador de presupuesto para que armes la página a tu medida.</p>
+            <p>Si tienes dudas sobre algún servicio, concepto o adicional, puedes dejarnos un mensaje al final junto con tus datos de contacto para que lo revisemos y te enviemos un presupuesto acorde a tu marca. No olvides contarnos sobre tu proyecto, puedes copiar los links de tus redes sociales  si quieres.</p>
+            <p>¡Anímate!</p>
+        </div>
+        <div class="personalizado-container">
+            <div class="form-container">
+                <form action="post" class="formulario">
+                    <ul>
+                        <li><label for="pagina">1. TIPO DE PÁGINA</label>
+                            <p>¿Que tipo de pagina quieres?</p>
+                        <select name="opciones1" id="opciones1">
+                          <option value="tipo">Seleccione un tipo de pagina</option>
+                          <option value="home">Home page web o presencia online</option>
+                          <option value="portfolio">Portfolio online (hasta 5 trabajos)</option>
+                          <option value="catalogo">Catalogo online (hasta 50 productos)</option>
+                          <option value="tienda">Tienda online (hasta 50 productos)</option>  
+                        </select></li>
+                        <li><label for="paginas_adi">2. PÁGINAS ADICIONALES</label>
+                            <p>¿Quieres páginas adicionales? Compuesta por hasta 5 secciones? (Entendiendo sección como lo que cabe en 1 pantalla de ordenador sin hacer scroll)</p>
+                        <select name="opciones2" id="opciones1">
+                            <option value="addnin">Ninguna</option>
+                          <option value="add1">1</option>
+                          <option value="add2">2</option>
+                          <option value="add3">3</option>
+                          <option value="add4">4</option>
+                          <option value="add5">5</option>
+                          <option value="add6">6</option>
+                          <option value="add7">7</option>
+                          <option value="add8">8</option>
+                          <option value="add9">9</option>
+                          <option value="add10">10</option>   
+                        </select></li>
+                        <li><label for="contenido">3. CONTENIDO
+                        <p>¿Qué imágenes y textos tendrá la web? Si ya tienes una idea, podemos guiarte en la creación de textos y en la búsqueda de imágenes, sino podemos encargarnos nosotros.</p>
+                        <input type="radio" name="contenido" id="contenido" value="Si, tengo imagenes y textos">
+                        </label>
+                            
+                        </li>
 
-                Entonces este tipo de sitio web es tu mejor opción. Aquí podrás cargar productos nuevos todos los días con su ficha técnica, el precio, las fotos y el stock. Las consultas en tus redes sociales disminuirán permitiéndote aprovechar mejor tu tiempo para enfocarte en hacer crecer tu marca.Los potenciales clientes podrán ver todo en tu tienda online, quitarse las dudas y comprar sin que tú intervengas. Cada vez que realicen una compra te llegará un mail con los pedidos y los datos de contacto.<br>
-                
-                ¡Así de simple!</p>
-        </div>
-        <div class="tarjetas">
-            <div class="tarjeta-mobile">
-                <div class="tarjeta tarjeta-tienda">
-                    <h3>PRINCIPIANTE</h3>
-                    <p>879€ <br><span>IVA incluido</span></p>
-                    <ul>
-                        <li>Estilo estándar</li>
-                        <li>Web móvil (Responsive)</li>
-                        <li>Posicionamiento global</li>
-                        <li>Redes sociales integradas</li>
-                        <li>Woocommerce</li>
-                        <li>Carga de contenido (hasta 50 artículos)</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="tarjeta-mobile">
-                <div class="tarjeta tarjeta-tienda">
-                    <h3>INTERMEDIO</h3>
-                    <p>1315€ <br><span>IVA incluido</span></p>
-                    <ul>
-                        <li>Estilo personalizado</li>
-                        <li>Web móvil (Responsive)</li>
-                        <li>Posicionamiento global</li>
-                        <li>Redes sociales integradas</li>
-                        <li>Formulario de contacto</li>
-                        <li>Google Maps</li>
-                        <li>Woocommerce</li>
-                        <li>Carga de contenido (hasta 100 artículos)</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="tarjeta-mobile">
-                <div class="tarjeta tarjeta-tienda">
-                    <h3>AVANZADO</h3>
-                    <p>1759€<br><span>IVA incluido</span></p>
-                    <ul>
-                        <li>Estilo personalizado</li>
-                        <li>Web móvil (Responsive)</li>
-                        <li>Posicionamiento global</li>
-                        <li>Redes sociales integradas</li>
-                        <li>Formulario de contacto</li>
-                        <li>Textos publicitarios</li>
-                        <li>Google Maps</li>
-                        <li>Woocommerce</li>
-                        <li>Carga de contenido (hasta 200 artículos)</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="catalogo">
-            <h2>CATÁLOGO ONLINE</h2>
-            <p>¿Quieres tener un escaparate de tu marca en la mejor avenida?<br>
 
-                Entonces este tipo de sitio web es la opción indicada para ti.<br>
-                
-                Aquí podrás cargar productos nuevos todos los días con su ficha técnica, precio y fotos. Es perfecto si no quieres automatizar las ventas, tú tendrás el control de cada una que se realice. Las consultas en tus redes sociales disminuirán permitiéndote aprovechar mejor tu tiempo para enfocarte en hacer crecer tu marca. Los potenciales clientes podrán encontrarte en línea, quitarse las dudas sobre tus productos, y luego contactarte para concretar la venta.<br>
-                
-                ¡Mejor imposible!
-                </p>
-        </div>
-        <div class="tarjetas">
-            <div class="tarjeta-mobile">
-                <div class="tarjeta tarjeta-catalogo">
-                    <h3>PRINCIPIANTE</h3>
-                    <p>699€ <br><span>IVA incluido</span></p>
-                    <ul>
-                        <li>Estilo estándar</li>
-                        <li>Web móvil (Responsive)</li>
-                        <li>Posicionamiento global</li>
-                        <li>Redes sociales integradas</li>
-                        <li>Google Maps</li>
-                        <li>Carga de contenido (hasta 50 artículos)</li> 
+
+
+
+                        <li><label for="nombre"></label>
+                        <input type="text"placeholder="Nombre" id="nombre" class="contacto-style"></li>
+                        <li><label for="email"></label>
+                        <input type="mail" placeholder="E-mail" class="contacto-style"></li>
+                        <li><label for="telefono"></label>
+                        <input type="tel" id="telefono" placeholder="Telefono (opcional)" class="contacto-style"></li>
+                        <li><label for="opciones"></label>
+                        <select name="opciones" id="opciones" class="contacto-style">
+                            <option value="consulta">consulta</option>
+                            <option value="comerciante">Pack comerciante</option>
+                            <option value="experto">Pack experto</option>
+                            <option value="personalizado">Personalizado</option>
+                        </select></li>
+                        <li><label for="text_area"></label>
+                        <textarea name="text-area" id="" cols="30" rows="10" class="contacto-style"></textarea></li>
+                        <li><label for="terminos"></label>
+                        <input type="checkbox" name="" id="">He leido y acepto<a href="#"> los terminos y condiciones</a></li>
                     </ul>
-                </div>
+                </form>
             </div>
-            <div class="tarjeta-mobile">
-                <div class="tarjeta tarjeta-catalogo">
-                    <h3>INTERMEDIO</h3>
-                    <p>1055€ <br><span>IVA incluido</span></p>
-                    <ul>
-                        <li>Estilo personalizado </li>
-                        <li>Web móvil (Responsive) </li>
-                        <li>Posicionamiento global </li>
-                        <li>Redes sociales integradas </li>
-                        <li>Formulario de contacto </li>
-                        <li>Google Maps </li>
-                        <li>Carga de contenido (hasta 100 artículos) </li> 
-                    </ul>
-                </div>
-            </div>
-            <div class="tarjeta-mobile">
-                <div class="tarjeta tarjeta-catalogo">
-                    <h3>AVANZADO</h3>
-                    <p>1409€ <br><span>IVA incluido</span></p>
-                    <ul>
-                        <li>Estilo personalizado</li>
-                        <li>Web móvil (Responsive)</li>
-                        <li>Posicionamiento global</li>
-                        <li>Redes sociales integradas</li>
-                        <li>Formulario de contacto</li>
-                        <li>Textos publicitarios</li>
-                        <li>Google Maps</li>
-                        <li>Carga de contenido (hasta 200 artículos) </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        
-        <div class="metodoTrabajo" id="portfolio-emprendedor">
-            <h2>CÓMO TRABAJAMOS</h2>
-            <div class="paso-img_container"><img src="./recursos/imgs/Proceso paso a paso.webp" alt="paso-a-paso" class="paso-img"></div>
         </div>
 
+        </div>
             <article>
-
                 <div class="container mt-5">
                     <div id="videoCarousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">

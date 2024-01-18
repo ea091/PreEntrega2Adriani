@@ -528,11 +528,12 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background: linear-gradient(90deg, #f0834d 30%, #9284b8);
+  background: linear-gradient(180deg, #eead8d, #9284b8 100%);
   border-radius: 10px;
+  width: 80%;
+  margin: auto;
 }
-
-.tarjeta {
+.tarjetas .tarjeta {
   background-color: #ffffff;
   margin: 10px;
   padding: 10px;
@@ -725,4 +726,109 @@ img {
   .footer-container .footer_links a {
     margin-top: 10px;
   }
+}
+@media (max-width: 480px) {
+  .nav-principal {
+    display: none;
+  }
+  .menu-hamburguesa {
+    display: block;
+  }
+  main {
+    width: 100vw;
+  }
+  .header_container {
+    height: 350px;
+  }
+  .article_container {
+    width: 100%;
+    padding: 0 10px 0 10px;
+  }
+  .servicios {
+    display: flex;
+    flex-direction: column;
+  }
+  .columns-container {
+    flex-direction: column;
+  }
+  .beneficios-col_1 {
+    width: 100%;
+  }
+  .beneficios-col_2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .pack_container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .nosotros-col_container {
+    flex-direction: column;
+  }
+  .nosotros-img_container, .nosotros-p_container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .formulario {
+    width: 80%;
+  }
+  .form-container {
+    width: 100%;
+  }
+  /* PAGINA EMPRENDEDOR */
+  .tarjetas {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background: none;
+  }
+  .tarjeta-mobile {
+    margin-top: 10px;
+    background: linear-gradient(90deg, #f0834d 30%, #9284b8);
+    border-radius: 10px;
+  }
+  .tarjeta {
+    flex-wrap: wrap !important;
+  }
+  .paso-img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 850px) {
+  .tarjetas {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background: none;
+  }
+  .tarjeta-mobile {
+    background: linear-gradient(90deg, #f0834d 30%, #9284b8);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+    margin-top: 10px;
+  }
+}
+.personalizado-h1 {
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  font-family: raleway !important;
+  padding-left: 15px;
+}
+
+.personalizado-text {
+  text-align: justify !important;
+  font-family: raleway;
+  font-size: 16px;
+  padding: 15px 15px 0 15px;
+  line-height: 30px;
+}
+
+.personalizado-bold {
+  font-weight: 500;
 }/*# sourceMappingURL=styles.css.map */
