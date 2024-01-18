@@ -1,0 +1,82 @@
+// servicios
+@media (max-width: 1100px){
+    .servicios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .servicios_soluciones{
+        text-align: center;
+    }
+    .servicios-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        width: 100%;
+        
+            .servicios-container_soluciones{
+                width: 85%;
+                margin: auto;
+                margin-top: 15px;
+                flex-wrap: wrap;
+            }
+    }
+}
+//servicios
+
+//beneficios
+@media(max-width: 800px){
+    .columns-container{
+        flex-direction: column;
+        
+        .beneficios-col_1{
+            width: 100%;
+        }
+        .beneficios-col_2{
+            width: 100%;
+        }
+    }
+}
+//beneficios
+
+//packs
+@media(max-width: 1400px){
+     .pack_container{
+         display: none;
+     }
+    
+}
+
+@media(min-width: 1400px){
+    .pack_container-mobile{
+        display: none;
+    }  
+}
+//packs
+
+// nosotros
+    @media (max-width: 900px){
+        .nosotros{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .nosotros-col_container{
+                flex-direction: column;
+            }
+                .nosotros-img_container {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    margin: 30px
+                }
+                .nosotros-p_container{
+                    display: flex;
+                    flex-direction: column;
+                    margin: auto;
+                }
+        }
+        
+    }
+//nosotros

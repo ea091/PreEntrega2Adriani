@@ -10,6 +10,15 @@
   .form-title {
     display: flex;
     justify-content: center;
+    
+      h3{
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+        font-family: raleway;
+        font-weight: 600;
+        margin:20px;
+      }
   }
   
   .form-container {
