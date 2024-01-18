@@ -1,3 +1,30 @@
+//header
+@media (max-width: 750px){
+        .titulo-container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    .titulo-principal{
+        font-size: 20px;
+        color: #ffffff;
+        line-height: 55px;
+        font-weight:bolder!important;
+        margin: auto;
+        
+          .pasion-principal{
+          font-size: 20px;
+          text-transform: uppercase;
+        }
+          .typing-effect {
+          background-color: #eead8d;
+          font-size: 20px !important;
+          text-transform: uppercase;
+        }
+    }
+}
+
+
+
 // servicios
 @media (max-width: 1100px){
     .servicios{
@@ -80,3 +107,28 @@
         
     }
 //nosotros
+
+// contacto
+@media( max-width: 400px){
+    .footer-container{
+        display: grid;
+        grid-template-areas: "a a a a b b b" "d d d d d d d""c c c c c c c";
+            .footer_logo{
+                grid-area: a;
+            }
+            .footer_contacto{
+                grid-area: d;
+            }
+            .footer_redes{
+                grid-area: b;
+            }
+            .footer_links{
+                grid-area: c;
+                flex-direction: column;
+                margin: auto;
+                    a{
+                        margin-top: 10px;
+                    }
+        }   
+    }
+}

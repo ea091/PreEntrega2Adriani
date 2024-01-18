@@ -77,3 +77,19 @@
       text-decoration: underline;
     }
   }
+
+  .menu_list-mobile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    list-style-type: none;
+  }
+  .menu-li_mobile{
+    margin: 10px!important;
+    padding: 0;
+  }
+
+  .nav-toggler_eze{
+    margin-right: 20px;
+  }
