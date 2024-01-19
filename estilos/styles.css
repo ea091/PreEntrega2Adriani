@@ -267,6 +267,10 @@ img {
   justify-content: center;
   align-items: center;
 }
+.beneficios-container .beneficios-img {
+  max-height: 200px;
+  max-width: 200px;
+}
 .beneficios-container figure {
   position: relative;
   height: 100%;

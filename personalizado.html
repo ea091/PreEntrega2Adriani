@@ -89,29 +89,63 @@
                         </select></li>
                         <li><label for="paginas_adi">2. PÁGINAS ADICIONALES</label>
                             <p>¿Quieres páginas adicionales? Compuesta por hasta 5 secciones? (Entendiendo sección como lo que cabe en 1 pantalla de ordenador sin hacer scroll)</p>
-                        <select name="opciones2" id="opciones1">
-                            <option value="addnin">Ninguna</option>
-                          <option value="add1">1</option>
-                          <option value="add2">2</option>
-                          <option value="add3">3</option>
-                          <option value="add4">4</option>
-                          <option value="add5">5</option>
-                          <option value="add6">6</option>
-                          <option value="add7">7</option>
-                          <option value="add8">8</option>
-                          <option value="add9">9</option>
-                          <option value="add10">10</option>   
-                        </select></li>
-                        <li><label for="contenido">3. CONTENIDO
-                        <p>¿Qué imágenes y textos tendrá la web? Si ya tienes una idea, podemos guiarte en la creación de textos y en la búsqueda de imágenes, sino podemos encargarnos nosotros.</p>
-                        <input type="radio" name="contenido" id="contenido" value="Si, tengo imagenes y textos">
-                        </label>
-                            
+                            <select name="opciones2" id="paginas_adi">
+                                <option value="addnin">Ninguna</option>
+                                <option value="add1">1</option>
+                                <option value="add2">2</option>
+                                <option value="add3">3</option>
+                                <option value="add4">4</option>
+                                <option value="add5">5</option>
+                                <option value="add6">6</option>
+                                <option value="add7">7</option>
+                                <option value="add8">8</option>
+                                <option value="add9">9</option>
+                                <option value="add10">10</option>   
+                            </select>
                         </li>
+                        <li><label for="contenido">3. CONTENIDO</label>
+                            <p>¿Qué imágenes y textos tendrá la web? Si ya tienes una idea, podemos guiarte en la creación de textos y en la búsqueda de imágenes, sino podemos encargarnos nosotros.</p>
+                            <input type="radio" name="contenido" id="contenido" value="imagenesYtextos"> <label> Si, tengo imagenes y textos</label><br>
+                            <input type="radio" name="contenido" id="contenido" value="soloTextos"> <label> Tengo sólo textos</label><br>
+                            <input type="radio" name="contenido" id="contenido" value="soloImagenes"> <label> Tengo sólo imagenes</label><br>
+                            <input type="radio" name="contenido" id="contenido" value="nada"> <label> No tengo nada</label>
+                        </li>
+                        <li><label for="diseño">4. DISEÑO WEB</label>
+                            <p>¿Qué arquitectura tendrá la página? Puedes elegir entre diversas plantillas de Wordpress o podremos personalizarla 100% a tu medida, en base a tus necesidades y a tu marca.</p>
+                            <input type="radio" name="diseño" id="diseño" value="estandar"> <label> Quiero una plantilla estandar</label><br>
+                            <input type="radio" name="diseño" id="diseño" value="personalizada"> <label> Quiero una plantilla personalizada</label><br>
+                            <input type="radio" name="diseño" id="diseño" value="medida"> <label> A medida</label><br>
+                        </li>
+                        <li><label for="blog">5. BLOG O NOTICIAS</label>
+                            <p>¿Quieres mantener actualizados a tus clientes? En esta página podrás crear entradas para mantener informada a tu comunidad o potenciales clientes, es una buena opción para mejorar el posicionamiento de tu marca y de la web.</p>
+                            <input type="radio" name="blog" id="blog" value="si"> <label> Si, quiero.</label><br>
+                            <input type="radio" name="blog" id="blog" value="nombre"> <label> No, no quiero.</label><br>
 
+                        </li>
+                        <li><label for="correos">6. CORREOS CORPORATIVOS</label>
+                            <p>¿Cuántos correos de la marca necesitarás? Los correos corporativos le otorgan legitimidad a la marca, si trabajas con varias personas, tener un correo por sector sería apropiado.</p>
+                            <input type="radio" name="correos" id="correos" value="2"> <label>2 correos</label><br>
+                            <input type="radio" name="correos" id="correos" value="3"> <label>3 correos</label><br>
+                            <input type="radio" name="correos" id="correos" value="1"> <label>1 correos</label><br>
+                            <input type="radio" name="correos" id="correos" value="4"> <label>4 correos</label><br>
+                            <input type="radio" name="correos" id="correos" value="5"> <label>5 correos</label><br>
 
+                        </li>
+                        <li><label for="legal">7. INFORMACIÓN LEGAL</label>
+                            <p>¿Tienes redactada la información legal? La web deberá tener una página de aviso legal, una de la política de privacidad, y otra de cookies.</p>
+                            <input type="radio" name="legal" id="legal" value="si"> <label>Si, tengo la información legal.</label><br>
+                            <input type="radio" name="legal" id="legal" value="no"> <label>No, necesito que la redacten.</label><br>
 
+                        </li>
+                        <li><label for="adicionales">8. ADICIONALES</label>
+                            <p>¿Tienes redactada la información legal? La web deberá tener una página de aviso legal, una de la política de privacidad, y otra de cookies.</p>
+                            <input type="checkbox" for="adicionales"> <label>Copias de seguridad</label><br>
+                            <input type="checkbox" for="adicionales"> <label>Formulario de contacto</label><br>
+                            <input type="checkbox" for="adicionales"> <label>Redes sociales integradas</label><br>
+                            <input type="checkbox" for="adicionales"> <label>Google Maps integrado</label><br>
+                            <input type="checkbox" for="adicionales"> <label>Calculadora de costos</label>
 
+                        </li>
 
                         <li><label for="nombre"></label>
                         <input type="text"placeholder="Nombre" id="nombre" class="contacto-style"></li>
@@ -120,17 +154,13 @@
                         <li><label for="telefono"></label>
                         <input type="tel" id="telefono" placeholder="Telefono (opcional)" class="contacto-style"></li>
                         <li><label for="opciones"></label>
-                        <select name="opciones" id="opciones" class="contacto-style">
-                            <option value="consulta">consulta</option>
-                            <option value="comerciante">Pack comerciante</option>
-                            <option value="experto">Pack experto</option>
-                            <option value="personalizado">Personalizado</option>
-                        </select></li>
                         <li><label for="text_area"></label>
                         <textarea name="text-area" id="" cols="30" rows="10" class="contacto-style"></textarea></li>
                         <li><label for="terminos"></label>
                         <input type="checkbox" name="" id="">He leido y acepto<a href="#"> los terminos y condiciones</a></li>
+                        <input type="submit" value="Enviar">
                     </ul>
+
                 </form>
             </div>
         </div>

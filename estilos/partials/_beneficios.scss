@@ -25,7 +25,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
+    
+    .beneficios-img{
+      max-height: 200px;
+      max-width: 200px;
+    }
     figure {
       position: relative;
       height: 100%;
