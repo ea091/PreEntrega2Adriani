@@ -3,6 +3,9 @@
     justify-content: space-between;
     background: linear-gradient(90deg, $perso 30%, $perso1);
     height: 100px;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
   }
   
   .logo {
@@ -59,6 +62,9 @@
 
   .menu-hamburguesa {
     display: none;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
   }
   
   .navbar-eze {

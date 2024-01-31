@@ -134,14 +134,18 @@
 }
 
 // PAGINA EMPRENDEDOR
+@media (max-width: 780px){
+  .nav-principal {
+    display: none;
+  }
+
+  .menu-hamburguesa {
+    display: block;
+  }
+}
+
 @media (max-width: 480px) {
-    .nav-principal {
-      display: none;
-    }
-  
-    .menu-hamburguesa {
-      display: block;
-    }
+    
   
     main {
       width: 100vw;

@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+p {
+  margin: 0 !important;
+}
+
 .header_container {
   height: 650px;
   width: 100vw;
@@ -75,6 +79,9 @@
   justify-content: space-between;
   background: linear-gradient(90deg, #f0834d 30%, #9284b8);
   height: 100px;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
 }
 
 .logo {
@@ -130,6 +137,9 @@
 
 .menu-hamburguesa {
   display: none;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
 }
 
 .navbar-eze {
@@ -731,13 +741,15 @@ img {
     margin-top: 10px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 780px) {
   .nav-principal {
     display: none;
   }
   .menu-hamburguesa {
     display: block;
   }
+}
+@media (max-width: 480px) {
   main {
     width: 100vw;
   }
@@ -835,4 +847,32 @@ img {
 
 .personalizado-bold {
   font-weight: 500;
+}
+
+.frecuentes-contenedor {
+  margin-top: 90px;
+  width: 70%;
+  margin: auto;
+}
+.frecuentes-contenedor h1 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: raleway;
+  padding-left: 15px;
+  color: #000000;
+}
+.frecuentes-contenedor .frecuentes-p {
+  text-align: justify !important;
+  font-family: raleway;
+  font-size: 16px;
+  padding: 15px 15px 0 15px;
+  color: #000000;
+  line-height: 30px;
+}
+.frecuentes-contenedor .faq-container {
+  margin-top: 45px;
+}
+.frecuentes-contenedor .btn-eze {
+  background-color: #9284b8;
+  border: none;
 }/*# sourceMappingURL=styles.css.map */
