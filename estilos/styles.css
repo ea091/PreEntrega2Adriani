@@ -796,6 +796,8 @@ img {
     display: flex;
     flex-direction: column;
     margin: auto;
+    width: 85%;
+    text-align: justify;
   }
 }
 @media (max-width: 400px) {
