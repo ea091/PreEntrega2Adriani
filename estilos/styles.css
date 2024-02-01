@@ -538,6 +538,27 @@ img {
   color: #000000;
 }
 
+.presentacion-servicios {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 45px;
+}
+.presentacion-servicios h2 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: raleway;
+  padding-left: 15px;
+  color: #000000;
+}
+.presentacion-servicios p {
+  text-align: justify !important;
+  font-family: raleway;
+  font-size: 16px;
+  padding: 15px 15px 0 15px;
+  color: #000000;
+  line-height: 30px;
+}
+
 .tarjetas {
   display: flex;
   flex-direction: row;
@@ -546,13 +567,84 @@ img {
   border-radius: 10px;
   width: 80%;
   margin: auto;
+  height: 500px;
+  margin-bottom: 45px;
+}
+.tarjetas .tarjeta-mobile {
+  width: 100%;
+  height: 500px;
 }
 .tarjetas .tarjeta {
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.5215686275);
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
   height: 90%;
+  width: 90%;
+  flex-wrap: wrap;
+}
+.tarjetas .tarjeta-p1 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tarjetas .tarjeta-p1 .lista {
+  height: 350px;
+}
+.tarjetas .tarjeta-p1 .lista h3 {
+  font-family: "Comfortaa", Sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+}
+.tarjetas .tarjeta-p1 .lista .precio {
+  text-align: center;
+  font-family: comfortaa;
+  font-size: 45px !important;
+  color: #000000;
+  font-weight: 700 !important;
+}
+.tarjetas .tarjeta-p1 .lista .iva {
+  text-align: center;
+  font-family: raleway;
+  font-size: 17px !important;
+  color: #000000;
+  font-weight: 300 !important;
+  padding: 0;
+  margin: 0;
+}
+.tarjetas .tarjeta-p1 .boton-container_comerciante {
+  align-self: flex-end;
+  margin: auto;
+}
+.tarjetas .tarjeta-p1 .boton_comerciante {
+  border: solid 3px #F0834D;
+  color: #F0834D;
+  cursor: pointer;
+  padding: 3px 15px;
+  border-radius: 15px;
+  font-weight: 500;
+}
+.tarjetas .tarjeta-p1 .boton_comerciante:hover {
+  color: #ffffff;
+  background-color: #F0834D;
+}
+.tarjetas .tarjeta-p1 .boton_comerciante:active {
+  color: #ffffff;
+}
+.tarjetas .tarjeta-p1 .boton_comerciante_medio {
+  color: #ffffff;
+  background-color: #F0834D;
+  cursor: pointer;
+  padding: 3px 15px;
+  border-radius: 15px;
+  border: solid 3px #F0834D;
+  font-weight: 500;
+}
+.tarjetas .tarjeta-p1 .boton_comerciante_medio:hover {
+  color: #ffffff;
 }
 
 .paso-img {
@@ -615,21 +707,6 @@ img {
     width: 100%;
   }
   /* PAGINA EMPRENDEDOR */
-  .tarjetas {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    background: none;
-  }
-  .tarjeta-mobile {
-    margin-top: 10px;
-    background: linear-gradient(90deg, #f0834d 30%, #9284b8);
-    border-radius: 10px;
-  }
-  .paso-img {
-    width: 100%;
-    height: 100%;
-  }
 }
 @media (max-width: 750px) {
   .titulo-container {
@@ -793,41 +870,20 @@ img {
   .form-container {
     width: 100%;
   }
-  /* PAGINA EMPRENDEDOR */
-  .tarjetas {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    background: none;
-  }
-  .tarjeta-mobile {
-    margin-top: 10px;
-    background: linear-gradient(90deg, #f0834d 30%, #9284b8);
-    border-radius: 10px;
-  }
-  .tarjeta {
-    flex-wrap: wrap !important;
-  }
-  .paso-img {
-    width: 100%;
-    height: 100%;
-  }
 }
-@media (max-width: 850px) {
+@media (max-width: 1450px) {
   .tarjetas {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
     background: none;
+    flex-direction: column;
+    height: 1700px;
   }
-  .tarjeta-mobile {
-    background: linear-gradient(90deg, #f0834d 30%, #9284b8);
+  .tarjetas .tarjeta-mobile {
+    background: linear-gradient(180deg, #eead8d, #9284b8 100%);
     border-radius: 10px;
+    margin: auto;
     display: flex;
     justify-content: center;
-    width: 75%;
-    margin: auto;
-    margin-top: 10px;
+    align-items: center;
   }
 }
 .personalizado-h1 {
@@ -847,32 +903,4 @@ img {
 
 .personalizado-bold {
   font-weight: 500;
-}
-
-.frecuentes-contenedor {
-  margin-top: 90px;
-  width: 70%;
-  margin: auto;
-}
-.frecuentes-contenedor h1 {
-  font-size: 24px;
-  font-weight: 600;
-  font-family: raleway;
-  padding-left: 15px;
-  color: #000000;
-}
-.frecuentes-contenedor .frecuentes-p {
-  text-align: justify !important;
-  font-family: raleway;
-  font-size: 16px;
-  padding: 15px 15px 0 15px;
-  color: #000000;
-  line-height: 30px;
-}
-.frecuentes-contenedor .faq-container {
-  margin-top: 45px;
-}
-.frecuentes-contenedor .btn-eze {
-  background-color: #9284b8;
-  border: none;
 }/*# sourceMappingURL=styles.css.map */

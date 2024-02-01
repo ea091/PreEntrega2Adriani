@@ -1,0 +1,211 @@
+.presentacion-servicios{
+  width: 70%;
+  margin: auto;
+  margin-bottom: 45px; 
+
+  h2{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: raleway;
+    padding-left: 15px;
+  color: #000000;
+}
+  p{
+    text-align: justify !important;
+    font-family: raleway;
+    font-size: 16px;
+    padding: 15px 15px 0 15px;
+    color: #000000;
+    line-height: 30px;
+}
+}
+
+.tarjetas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient(180deg, $secondary, $perso1 100%);
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    margin-bottom: 45px;
+
+    .tarjeta-mobile{
+      width: 100%;
+      height: 500px;
+      
+    }
+    .tarjeta {
+      background-color: #FFFFFF85;
+      margin: 10px;
+      padding: 10px;
+      border-radius: 10px;
+      height: 90%;
+      width: 90%;
+      flex-wrap: wrap;
+    }
+    .tarjeta-p1{
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .lista{
+        height: 350px;
+
+        h3{
+          font-family: "Comfortaa", Sans-serif;
+          font-size: 20px;
+          font-weight: 500;
+          font-style: normal;
+          text-align: center;
+        }
+        .precio{
+          text-align: center;
+          font-family: comfortaa;
+          font-size:45px!important;
+          color: #000000;
+          font-weight: 700!important;
+      }
+        .iva{
+          text-align: center;
+          font-family: raleway;
+          font-size:17px!important;
+          color: #000000;
+          font-weight: 300!important;
+          padding: 0;
+          margin: 0;
+      }
+      }
+      .boton-container_comerciante{
+        align-self: flex-end;
+        margin: auto;
+        
+      }
+      .boton_comerciante{
+        border: solid 3px #F0834D;
+        color: #F0834D;
+        cursor: pointer;
+        padding: 3px 15px;
+        border-radius: 15px;
+        font-weight: 500;
+    }
+    .boton_comerciante:hover{
+        color: #ffffff;
+        background-color: #F0834D;
+    }
+    .boton_comerciante:active{
+        color:#ffffff;
+    }
+    .boton_comerciante_medio{
+      color: #ffffff;
+      background-color: #F0834D;
+      cursor: pointer;
+      padding: 3px 15px;
+      border-radius: 15px;
+      border: solid 3px #F0834D;
+      font-weight: 500;
+  }
+  .boton_comerciante_medio:hover{
+      color:#ffffff;
+      
+  }
+    }
+  }
+  
+  
+  
+  .paso-img {
+    width: 50%;
+    height: 70%;
+  }
+  
+  .paso-img_container {
+    text-align: center;
+  }
+  
+  @media (max-width: 480px) {
+    .nav-principal {
+      display: none;
+    }
+  
+    .menu-hamburguesa {
+      display: block;
+    }
+  
+    main {
+      width: 100vw;
+    }
+  
+    .header_container {
+      height: 350px;
+    }
+  
+    .article_container {
+      width: 100%;
+      padding: 0 10px 0 10px;
+    }
+  
+    .servicios {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .columns-container {
+      flex-direction: column;
+    }
+  
+    .beneficios-col_1 {
+      width: 100%;
+    }
+  
+    .beneficios-col_2 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .pack_container {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .nosotros-col_container {
+      flex-direction: column;
+    }
+  
+    .nosotros-img_container, .nosotros-p_container {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+    }
+  
+    .formulario {
+      width: 80%;
+    }
+  
+    .form-container {
+      width: 100%;
+    }
+  
+    /* PAGINA EMPRENDEDOR */
+  
+  //   .tarjetas {
+  //     display: flex;
+  //     flex-direction: column;
+  //     margin: 10px;
+  //     background: none;
+  //   }
+  
+  //   .tarjeta-mobile {
+  //     margin-top: 10px;
+  //     background: linear-gradient(90deg, $perso 30%, $perso1);
+  //     border-radius: 10px;
+  //   }
+  
+  //   .paso-img {
+  //     width: 100%;
+  //     height: 100%;
+  //   }
+}

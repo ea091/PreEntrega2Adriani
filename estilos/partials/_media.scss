@@ -202,42 +202,24 @@
       width: 100%;
     }
   
-    /* PAGINA EMPRENDEDOR */
-  
-    .tarjetas {
-      display: flex;
-      flex-direction: column;
-      margin: 10px;
-      background: none;
+}
+
+//COMIENZO DE PAGINA EMPRENDEDOR
+@media (max-width: 1450px){
+  .tarjetas{
+    background: none;
+    flex-direction: column;
+    height: 1700px;
+
+    .tarjeta-mobile{
+      background: linear-gradient(180deg, $secondary, $perso1 100%);
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
-  
-    .tarjeta-mobile {
-      margin-top: 10px;
-      background: linear-gradient(90deg, $perso 30%, $perso1);
-      border-radius: 10px;
-    }
-    .tarjeta{
-        flex-wrap: wrap!important;
-    }
-    .paso-img {
-      width: 100%;
-      height: 100%;
-    }
+
+    
   }
-@media(max-width: 850px){
-    .tarjetas {
-        display: flex;
-        flex-direction: column;
-        margin: 10px;
-        background: none;
-      }
-    .tarjeta-mobile {
-        background: linear-gradient(90deg, $perso 30%, $perso1);
-        border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        width: 75%;
-        margin: auto;
-        margin-top: 10px;
-      }
 }
