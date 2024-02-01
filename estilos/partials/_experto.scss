@@ -1,7 +1,7 @@
 .presentacion-servicios{
   width: 70%;
   margin: auto;
-  margin-bottom: 45px; 
+  margin-bottom: -60px;
 
   h2{
     font-size: 24px;
@@ -30,6 +30,13 @@
     margin: auto;
     height: 500px;
     margin-bottom: 45px;
+
+    .tarjetas-container{
+      display: flex;
+    }
+    @media (max-width: 1450px){
+      
+    }
 
     .tarjeta-mobile{
       width: 100%;
