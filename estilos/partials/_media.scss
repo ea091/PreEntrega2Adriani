@@ -22,7 +22,11 @@
         }
     }
 }
-
+@media (max-width: 500px){
+  .titulo-principal{
+    margin-left: 10px;
+  }
+}
 
 
 // servicios
@@ -307,5 +311,15 @@
 
   .form-container {
     width: 100%;
+  }
+}
+
+@media(max-width: 800px){
+  .card-body{
+      width: 45vw;
+      
+  }
+  .card{
+      width: 100%;
   }
 }

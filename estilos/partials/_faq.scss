@@ -25,7 +25,24 @@
     .btn-eze{
         background-color: $perso1;
         border: none;
+        margin: 10px;
 
+        &:hover{
+            background-color: $secondary;
+        }
     }
 }
-
+.metodoTrabajo,
+.portfolio{
+    h2{
+        font-size: 24px;
+  font-weight: 600;
+  font-family: raleway;
+  padding-left: 15px;
+  color: #000000;
+    }
+}
+.metodoTrabajo{
+    margin-top: 90px
+    
+}
