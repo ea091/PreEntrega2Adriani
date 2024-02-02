@@ -206,11 +206,13 @@
   
 }
 
+
 //COMIENZO DE PAGINA EMPRENDEDOR
+
 @media (max-width: 1450px){
   .presentacion-servicios{
     width: 85%;
-
+    margin-bottom: -60px;
   }
   .tarjetas{
     background: none;
@@ -232,5 +234,78 @@
         margin-top: 30px;
       }
     }
+  }
+  
+  .paso-img_container{
+    display: none;
+  }
+}
+@media(min-width:1450px){
+  .trabajo-mobile{
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .nav-principal {
+    display: none;
+  }
+
+  .menu-hamburguesa {
+    display: block;
+  }
+
+  main {
+    width: 100vw;
+  }
+
+  .header_container {
+    height: 350px;
+  }
+
+  .article_container {
+    width: 100%;
+    padding: 0 10px 0 10px;
+  }
+
+  .servicios {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .columns-container {
+    flex-direction: column;
+  }
+
+  .beneficios-col_1 {
+    width: 100%;
+  }
+
+  .beneficios-col_2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pack_container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nosotros-col_container {
+    flex-direction: column;
+  }
+
+  .nosotros-img_container, .nosotros-p_container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .formulario {
+    width: 80%;
+  }
+
+  .form-container {
+    width: 100%;
   }
 }

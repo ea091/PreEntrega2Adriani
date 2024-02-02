@@ -13,7 +13,7 @@
       box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
       border-radius: 25px;
       column-gap: 20px;
-      height: 600px;
+      height: 700px;
 
 
         .packs-decoration{
@@ -26,28 +26,33 @@
         .packs-right_1 {
           grid-area: a;
           width: 100%;
-          height: 100%;
+          height: 350px;
           
       }
       
         .packs-right_2 {
           grid-area: b;
           width: 100%;
-          height: 100%;
+          height: 350px;
           
       }
       
+      .medida-textos_container{
+        height: 100%;
+      }
+      .right-pcontainer{
+        height: 100%;
+      }
         .packs-right_3 {
           grid-area: c;
           width: 100%;
           margin-top: 20px;
-          height: 200px;
+          height: 250px;
       }
 
         .medida-textos_container{
           display: flex;
           flex-direction: column;
-          height: 230px;
 	        color: #000000;
         }
         .medida-textos_container-personalizado{
@@ -94,6 +99,10 @@
 
   
 }
+
+.boton-container_personalizado{
+  margin-top: 40px;
+}
 .boton-presupuesto{
   border: solid 3px #F0834D;
   color: #ffffff;
@@ -122,4 +131,26 @@
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
     border-radius: 25px;
   }
+  .pack-titulo{
+    text-align: center;
+  }
+    .pack-titulo_span{
+      text-transform: uppercase;
+      font-weight: 600;
+      margin:0px;
+      font-family: raleway;
+      line-height: 100%;
+      margin-bottom:10px;
+    }
+    .medida-textos_p{
+      font-family: raleway;
+      color: #000000;
+      line-height: 30px;
+      margin: 0;
+      padding: 0;
+    }
+}
+
+.portfolio{
+  margin-top: 90px;
 }

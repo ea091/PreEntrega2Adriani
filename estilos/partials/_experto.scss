@@ -1,9 +1,20 @@
+.seccion-emprendedor,
+.seccion-experto{
+  h2{
+    font-family: raleway;
+  }
+}
+.seccion-experto{
+  h2{
+    margin-top: 25px
+  }
+}
 .presentacion-servicios{
   width: 70%;
   margin: auto;
-  margin-bottom: -60px;
 
-  h2{
+
+  h3{
     font-size: 24px;
     font-weight: 600;
     font-family: raleway;
@@ -60,6 +71,7 @@
 
       .lista{
         height: 350px;
+        margin:auto;
 
         h3{
           font-family: "Comfortaa", Sans-serif;
@@ -84,6 +96,9 @@
           padding: 0;
           margin: 0;
       }
+        ul{
+          margin-top: 15px;
+        }
       }
       .boton-container_comerciante{
         align-self: flex-end;
@@ -132,87 +147,20 @@
     text-align: center;
   }
   
-  @media (max-width: 480px) {
-    .nav-principal {
-      display: none;
-    }
-  
-    .menu-hamburguesa {
-      display: block;
-    }
-  
-    main {
-      width: 100vw;
-    }
-  
-    .header_container {
+  .trabajo-mobile{
+    display: flex;
+    justify-content: center;
+
+    .paso-img_mobile{
+      width: 350px;
+      max-width: 100%;
       height: 350px;
-    }
-  
-    .article_container {
-      width: 100%;
-      padding: 0 10px 0 10px;
-    }
-  
-    .servicios {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .columns-container {
-      flex-direction: column;
-    }
-  
-    .beneficios-col_1 {
-      width: 100%;
-    }
-  
-    .beneficios-col_2 {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .pack_container {
-      flex-direction: column;
-      width: 100%;
-    }
-  
-    .nosotros-col_container {
-      flex-direction: column;
-    }
-  
-    .nosotros-img_container, .nosotros-p_container {
-      display: flex;
-      flex-direction: column;
       margin: auto;
     }
+  }
+
   
-    .formulario {
-      width: 80%;
-    }
-  
-    .form-container {
-      width: 100%;
-    }
-  
-    /* PAGINA EMPRENDEDOR */
-  
-  //   .tarjetas {
-  //     display: flex;
-  //     flex-direction: column;
-  //     margin: 10px;
-  //     background: none;
-  //   }
-  
-  //   .tarjeta-mobile {
-  //     margin-top: 10px;
-  //     background: linear-gradient(90deg, $perso 30%, $perso1);
-  //     border-radius: 10px;
-  //   }
-  
-  //   .paso-img {
-  //     width: 100%;
-  //     height: 100%;
-  //   }
-}
+
+
+
+

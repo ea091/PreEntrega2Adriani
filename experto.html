@@ -21,23 +21,27 @@
 </head>
 
 <body class="main-style">
+    
     <nav class="nav-principal">
         <div class="logo">
-            <a href="./index.html"><img src="./recursos/imgs/Logo LUBARA.webp" alt="logo lubara experto"
-                    class="logo_nav"></a>
+            <a href="./index.html"><img src="./recursos/imgs/Logo LUBARA.webp" alt="logo_lubara" class="logo_nav"></a>
         </div>
         <div class="menu">
             <ul class="menu_list">
-                <li class="menu-li"><a href="#nosotros-index" class="menu-li_a"">Nosotros</a></li>
-                <li class=" menu-li menu-li_drop"><a href="#" class="menu-li_a menu-drop">Servicios</a>
-                        <ul class="menu-list_drop">
-                            <li><a href="./emprendedor.html" class="menu-li_a">Pack emprendedor</a></li>
-                            <li><a href="./experto.html" class="menu-li_a">Pack experto</a></li>
-                            <li><a href="./personalizado.html" class="menu-li_a">Pack epersonalizado</a></li>
-                        </ul>
+                <li class="menu-li menu-li_drop"><a href="#nosotros-index" class="menu-li_a menu-drop">Nosotros</a>
+                    <ul class="menu-list_drop">
+                        <li class="menu-li"><a href="#portfolio" class="menu-li_a">Portfolio</a></li>
+                    </ul>
                 </li>
-                <li class="menu-li"><a href="#portfolio-index" class="menu-li_a">Portfolio</a></li>
+                <li class="menu-li menu-li_drop"><a href="#" class="menu-li_a menu-drop">Servicios</a>
+                    <ul class="menu-list_drop">
+                        <li><a href="./experto.html#seccion-emprendedor_id" class="menu-li_a">Pack emprendedor</a></li>
+                        <li><a href="./experto.html#seccion-experto_id" class="menu-li_a">Pack experto</a></li>
+                        <li><a href="./personalizado.html" class="menu-li_a">Pack personalizado</a></li>
+                    </ul>
+                </li>
                 <li class="menu-li"><a href="#contacto-index" class="menu-li_a">Contacto</a></li>
+                <li class="menu-li"><a href="./faq.html" class="menu-li_a">FAQ</a></li>
             </ul>
         </div>
     </nav>
@@ -45,7 +49,7 @@
     <!-- menu hamburguesa -->
     <div class="menu-hamburguesa">
         <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-eze">
-            <a href="./index.html"><img src="./recursos/imgs/Logo LUBARA.webp" alt="logo lubara mobile experto"
+            <a href="./index.html"><img src="./recursos/imgs/Logo LUBARA.webp" alt="logo lubara mobile"
                     class="logo_nav"></a>
             <button class="navbar-toggler nav-toggler_eze" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -55,21 +59,25 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="menu_list-mobile">
-                    <li class="menu-li menu-li_mobile"><a href="#nosotros-index" class="menu-li_a"">Nosotros</a></li>
-                    <li class=" menu-li menu-li_drop menu-li_mobile"><a href="#"
-                                class="menu-li_a menu-drop">Servicios</a>
-                            <ul class="menu-list_drop">
-                                <li><a href="./emprendedor.html" class="menu-li_a">Pack emprendedor</a></li>
-                                <li><a href="./experto.html" class="menu-li_a">Pack experto</a></li>
+                    <li class="menu-li menu-li_mobile menu-li_drop"><a href="#nosotros-index" class="menu-li_a"">Nosotros</a>
+                            <ul class=" menu-list_drop">
+                                <li class="menu-li"><a href="#portfolio" class="menu-li_a">Portfolio</a></li>
                             </ul>
                     </li>
-                    <li class="menu-li menu-li_mobile"><a href="#portfolio-index" class="menu-li_a">Portfolio</a></li>
+                    <li class="menu-li menu-li_drop menu-li_mobile"><a href="#" class="menu-li_a menu-drop">Servicios</a>
+                        <ul class="menu-list_drop">
+                            <li><a href="./experto.html#seccion-emprendedor_id" class="menu-li_a">Pack emprendedor</a></li>
+                            <li><a href="./experto.html#seccion-experto_id" class="menu-li_a">Pack experto</a></li>
+                            <li><a href="./personalizado.html" class="menu-li_a">Pack personalizado</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-li menu-li_mobile"><a href="./faq.html" class="menu-li_a">FAQ</a></li>
                     <li class="menu-li menu-li_mobile"><a href="#contacto-index" class="menu-li_a">Contacto</a></li>
                 </ul>
             </div>
         </nav>
     </div>
-    <!-- Sidenav -->
+
     <!-- fin de menu hamburguesa -->
     <header class="header_container">
         <div class="titulo-container">
@@ -80,7 +88,7 @@
     </header>
 
     <main>
-        <article class="seccion-experto">
+        <article class="seccion-experto" id="seccion-experto_id">
             <h2>Pack experto</h2>
             <div class="presentacion-servicios portfolio">
                 <h3>PORTFOLIO ONLINE</h3>
@@ -175,7 +183,7 @@
                 </div>
             </div>
             <div class="presentacion-servicios presencia">
-                <h2>PRESENCIA ONLINE</h2>
+                <h3>PRESENCIA ONLINE</h3>
                 <p>¿Tienes un local comercial, pero tus clientes no te encuentran?<br>
 
                     Entonces este tipo de sitio web es la opción indicada para ti.<br>
@@ -269,7 +277,7 @@
 
 
         <!--SECCION EMPRENDEDOR-->
-        <article class="seccion-emprendedor">
+        <article class="seccion-emprendedor" id="seccion-emprendedor_id">
             <h2>Pack emprendedor</h2>
             <div class="presentacion-servicios tienda">
                 <h3>TIENDA ONLINE</h3>
@@ -286,81 +294,81 @@
             </div>
             <div class="tarjetas">
                 <div class="tarjetas-container">
-                <div class="tarjeta-mobile">
-                    <div class="tarjeta tarjeta-tienda">
-                        <div class="tarjeta-p1">
-                            <div class="lista">
-                                <h3>PRINCIPIANTE</h3>
-                                <h4 class="precio">879€ </h4>
-                                <p class="iva">IVA incluido</p>
-                                <ul>
-                                    <li>Estilo estándar</li>
-                                    <li>Web móvil (Responsive)</li>
-                                    <li>Posicionamiento global</li>
-                                    <li>Redes sociales integradas</li>
-                                    <li>Woocommerce</li>
-                                    <li>Carga de contenido (hasta 50 artículos)</li>
-                                </ul>
-                            </div>
-                            <div class="boton-container_comerciante">
-                                <a href="#contacto-comer" class="boton_comerciante">PIDELO AHORA</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tarjeta-mobile">
-                    <div class="tarjeta tarjeta-tienda">
-                        <div class="tarjeta-p1">
-                            <div class="lista">
-                                <h3>INTERMEDIO</h3>
-                                <h4 class="precio">1315€ </h4>
-                                <p class="iva">IVA incluido</p>
-                                <ul>
-                                    <li>Estilo personalizado</li>
-                                    <li>Web móvil (Responsive)</li>
-                                    <li>Posicionamiento global</li>
-                                    <li>Redes sociales integradas</li>
-                                    <li>Formulario de contacto</li>
-                                    <li>Google Maps</li>
-                                    <li>Woocommerce</li>
-                                    <li>Carga de contenido (hasta 100 artículos)</li>
-                                </ul>
-                            </div>
-                            <div class="boton-container_comerciante">
-                                <a href="#contacto-comer" class="boton_comerciante_medio">PIDELO AHORA</a>
+                    <div class="tarjeta-mobile">
+                        <div class="tarjeta tarjeta-tienda">
+                            <div class="tarjeta-p1">
+                                <div class="lista">
+                                    <h3>PRINCIPIANTE</h3>
+                                    <h4 class="precio">879€ </h4>
+                                    <p class="iva">IVA incluido</p>
+                                    <ul>
+                                        <li>Estilo estándar</li>
+                                        <li>Web móvil (Responsive)</li>
+                                        <li>Posicionamiento global</li>
+                                        <li>Redes sociales integradas</li>
+                                        <li>Woocommerce</li>
+                                        <li>Carga de contenido (hasta 50 artículos)</li>
+                                    </ul>
+                                </div>
+                                <div class="boton-container_comerciante">
+                                    <a href="#contacto-comer" class="boton_comerciante">PIDELO AHORA</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="tarjeta-mobile">
-                    <div class="tarjeta tarjeta-tienda">
-                        <div class="tarjeta-p1">
-                            <div class="lista">
-                                <h3>AVANZADO</h3>
-                                <h4 class="precio">1759€ </h4>
-                                <p class="iva">IVA incluido</p>
-                                <ul>
-                                    <li>Estilo personalizado</li>
-                                    <li>Web móvil (Responsive)</li>
-                                    <li>Posicionamiento global</li>
-                                    <li>Redes sociales integradas</li>
-                                    <li>Formulario de contacto</li>
-                                    <li>Textos publicitarios</li>
-                                    <li>Google Maps</li>
-                                    <li>Woocommerce</li>
-                                    <li>Carga de contenido (hasta 200 artículos)</li>
-                                </ul>
-                            </div>
-                            <div class="boton-container_comerciante">
-                                <a href="#contacto-comer" class="boton_comerciante">PIDELO AHORA</a>
+                    <div class="tarjeta-mobile">
+                        <div class="tarjeta tarjeta-tienda">
+                            <div class="tarjeta-p1">
+                                <div class="lista">
+                                    <h3>INTERMEDIO</h3>
+                                    <h4 class="precio">1315€ </h4>
+                                    <p class="iva">IVA incluido</p>
+                                    <ul>
+                                        <li>Estilo personalizado</li>
+                                        <li>Web móvil (Responsive)</li>
+                                        <li>Posicionamiento global</li>
+                                        <li>Redes sociales integradas</li>
+                                        <li>Formulario de contacto</li>
+                                        <li>Google Maps</li>
+                                        <li>Woocommerce</li>
+                                        <li>Carga de contenido (hasta 100 artículos)</li>
+                                    </ul>
+                                </div>
+                                <div class="boton-container_comerciante">
+                                    <a href="#contacto-comer" class="boton_comerciante_medio">PIDELO AHORA</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                    <div class="tarjeta-mobile">
+                        <div class="tarjeta tarjeta-tienda">
+                            <div class="tarjeta-p1">
+                                <div class="lista">
+                                    <h3>AVANZADO</h3>
+                                    <h4 class="precio">1759€ </h4>
+                                    <p class="iva">IVA incluido</p>
+                                    <ul>
+                                        <li>Estilo personalizado</li>
+                                        <li>Web móvil (Responsive)</li>
+                                        <li>Posicionamiento global</li>
+                                        <li>Redes sociales integradas</li>
+                                        <li>Formulario de contacto</li>
+                                        <li>Textos publicitarios</li>
+                                        <li>Google Maps</li>
+                                        <li>Woocommerce</li>
+                                        <li>Carga de contenido (hasta 200 artículos)</li>
+                                    </ul>
+                                </div>
+                                <div class="boton-container_comerciante">
+                                    <a href="#contacto-comer" class="boton_comerciante">PIDELO AHORA</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="presentacion-servicios  catalogo">
-                <h2>CATÁLOGO ONLINE</h2>
+                <h3>CATÁLOGO ONLINE</h3>
                 <p>¿Quieres tener un escaparate de tu marca en la mejor avenida?<br>
 
                     Entonces este tipo de sitio web es la opción indicada para ti.<br>
@@ -376,88 +384,112 @@
             </div>
             <div class="tarjetas">
                 <div class="tarjetas-container">
-                <div class="tarjeta-mobile">
-                    <div class="tarjeta tarjeta-catalogo">
-                        <div class="tarjeta-p1">
-                            <div class="lista">
-                                <h3>PRINCIPIANTE</h3>
-                                <h4 class="precio">699€ </h4>
-                                <p class="iva">IVA incluido</p>
-                                <ul>
-                                    <li>Estilo estándar</li>
-                                    <li>Web móvil (Responsive)</li>
-                                    <li>Posicionamiento global</li>
-                                    <li>Redes sociales integradas</li>
-                                    <li>Google Maps</li>
-                                    <li>Carga de contenido (hasta 50 artículos)</li>
-                                </ul>
+                    <div class="tarjeta-mobile">
+                        <div class="tarjeta tarjeta-catalogo">
+                            <div class="tarjeta-p1">
+                                <div class="lista">
+                                    <h3>PRINCIPIANTE</h3>
+                                    <h4 class="precio">699€ </h4>
+                                    <p class="iva">IVA incluido</p>
+                                    <ul>
+                                        <li>Estilo estándar</li>
+                                        <li>Web móvil (Responsive)</li>
+                                        <li>Posicionamiento global</li>
+                                        <li>Redes sociales integradas</li>
+                                        <li>Google Maps</li>
+                                        <li>Carga de contenido (hasta 50 artículos)</li>
+                                    </ul>
+                                </div>
+                                <div class="boton-container_comerciante">
+                                    <a href="#contacto-comer" class="boton_comerciante">PIDELO AHORA</a>
+                                </div>
                             </div>
-                            <div class="boton-container_comerciante">
-                                <a href="#contacto-comer" class="boton_comerciante">PIDELO AHORA</a>
-                            </div>
-                        </div>
 
+                        </div>
                     </div>
-                </div>
-                <div class="tarjeta-mobile">
-                    <div class="tarjeta tarjeta-catalogo">
-                        <div class="tarjeta-p1">
-                            <div class="lista">
-                                <h3>INTERMEDIO</h3>
-                                <h4 class="precio">1055€ </h4>
-                                <p class="iva">IVA incluido</p>
-                                <ul>
-                                    <li>Estilo personalizado </li>
-                                    <li>Web móvil (Responsive) </li>
-                                    <li>Posicionamiento global </li>
-                                    <li>Redes sociales integradas </li>
-                                    <li>Formulario de contacto </li>
-                                    <li>Google Maps </li>
-                                    <li>Carga de contenido (hasta 100 artículos) </li>
-                                </ul>
+                    <div class="tarjeta-mobile">
+                        <div class="tarjeta tarjeta-catalogo">
+                            <div class="tarjeta-p1">
+                                <div class="lista">
+                                    <h3>INTERMEDIO</h3>
+                                    <h4 class="precio">1055€ </h4>
+                                    <p class="iva">IVA incluido</p>
+                                    <ul>
+                                        <li>Estilo personalizado </li>
+                                        <li>Web móvil (Responsive) </li>
+                                        <li>Posicionamiento global </li>
+                                        <li>Redes sociales integradas </li>
+                                        <li>Formulario de contacto </li>
+                                        <li>Google Maps </li>
+                                        <li>Carga de contenido (hasta 100 artículos) </li>
+                                    </ul>
+                                </div>
+                                <div class="boton-container_comerciante">
+                                    <a href="#contacto-comer" class="boton_comerciante_medio">PIDELO AHORA</a>
+                                </div>
                             </div>
-                            <div class="boton-container_comerciante">
-                                <a href="#contacto-comer" class="boton_comerciante_medio">PIDELO AHORA</a>
+                        </div>
+                    </div>
+                    <div class="tarjeta-mobile">
+                        <div class="tarjeta tarjeta-catalogo">
+                            <div class="tarjeta-p1">
+                                <div class="lista">
+                                    <h3>AVANZADO</h3>
+                                    <h4 class="precio">1409€ </h4>
+                                    <p class="iva">IVA incluido</p>
+                                    <ul>
+                                        <li>Estilo personalizado</li>
+                                        <li>Web móvil (Responsive)</li>
+                                        <li>Posicionamiento global</li>
+                                        <li>Redes sociales integradas</li>
+                                        <li>Formulario de contacto</li>
+                                        <li>Textos publicitarios</li>
+                                        <li>Google Maps</li>
+                                        <li>Carga de contenido (hasta 200 artículos) </li>
+                                    </ul>
+                                </div>
+                                <div class="boton-container_comerciante">
+                                    <a href="#contacto-comer" class="boton_comerciante">PIDELO AHORA</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="tarjeta-mobile">
-                    <div class="tarjeta tarjeta-catalogo">
-                        <div class="tarjeta-p1">
-                            <div class="lista">
-                                <h3>AVANZADO</h3>
-                                <h4 class="precio">1409€ </h4>
-                                <p class="iva">IVA incluido</p>
-                                <ul>
-                                    <li>Estilo personalizado</li>
-                                    <li>Web móvil (Responsive)</li>
-                                    <li>Posicionamiento global</li>
-                                    <li>Redes sociales integradas</li>
-                                    <li>Formulario de contacto</li>
-                                    <li>Textos publicitarios</li>
-                                    <li>Google Maps</li>
-                                    <li>Carga de contenido (hasta 200 artículos) </li>
-                                </ul>
-                            </div>
-                            <div class="boton-container_comerciante">
-                                <a href="#contacto-comer" class="boton_comerciante">PIDELO AHORA</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             </div>
         </article>
         <!-- FIN SECCION EMPRENDEDOR-->
 
-        <div class="metodoTrabajo" id="portfolio-emprendedor">
+        <div class="metodoTrabajo" >
             <h2>CÓMO TRABAJAMOS</h2>
             <div class="paso-img_container"><img src="./recursos/imgs/Proceso paso a paso.webp"
                     alt="proceso de paso a paso experto" class="paso-img"></div>
         </div>
+        <div class="trabajo-mobile" id="trabajo-mobile_id">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active paso-img_container">
+                        <img class="d-block paso-img_mobile" src="./recursos/imgs/Paso 1.webp" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block paso-img_mobile" src="./recursos/imgs/Paso 2.webp" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block paso-img_mobile" src="./recursos/imgs/Paso 3.webp" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block paso-img_mobile" src="./recursos/imgs/Paso 4.webp" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+        </div>
 
-        <article>
+        <article class="portfolio" id="portfolio">
 
             <div class="container mt-5">
                 <div id="videoCarousel" class="carousel slide" data-ride="carousel">

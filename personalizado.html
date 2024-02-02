@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,28 +8,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <meta name="description" content="¿Aquí te dejamos un simulador de presupuesto para que armes la página según tus necesidades.">
-    <meta name="keywords" content="Diseño web personalizado, Desarrollo de sitios web, Rediseño de páginas web, Estrategias de UX/UI, Optimización para dispositivos móviles, Creación de interfaces atractivas, Diseño de logotipos, Desarrollo de tiendas en línea, Mantenimiento web, Consultoría de diseño web, Estrategias de SEO, Actualización de contenido, Integración de redes sociales, Diseño de banners y gráficos, Creación de contenido visual, Estrategias de marketing digital, Análisis de competencia, Optimización de velocidad, Servicios de hosting, Seguridad web.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta name="description"
+        content="¿Aquí te dejamos un simulador de presupuesto para que armes la página según tus necesidades.">
+    <meta name="keywords"
+        content="Diseño web personalizado, Desarrollo de sitios web, Rediseño de páginas web, Estrategias de UX/UI, Optimización para dispositivos móviles, Creación de interfaces atractivas, Diseño de logotipos, Desarrollo de tiendas en línea, Mantenimiento web, Consultoría de diseño web, Estrategias de SEO, Actualización de contenido, Integración de redes sociales, Diseño de banners y gráficos, Creación de contenido visual, Estrategias de marketing digital, Análisis de competencia, Optimización de velocidad, Servicios de hosting, Seguridad web.">
     <title>Lubara Personalizado</title>
 </head>
+
 <body class="main-style">
     <nav class="nav-principal">
         <div class="logo">
-            <a href="./index.html"><img src="./recursos/imgs/Logo LUBARA.webp" alt="logo lubara privacidad" class="logo_nav"></a>
+            <a href="./index.html"><img src="./recursos/imgs/Logo LUBARA.webp" alt="logo_lubara" class="logo_nav"></a>
         </div>
         <div class="menu">
             <ul class="menu_list">
-                <li class="menu-li"><a href="#nosotros-index" class="menu-li_a"">Nosotros</a></li>
-                <li class="menu-li menu-li_drop"><a href="#" class="menu-li_a menu-drop">Servicios</a>
+                <li class="menu-li menu-li_drop"><a href="#nosotros-index" class="menu-li_a menu-drop">Nosotros</a>
                     <ul class="menu-list_drop">
-                        <li><a href="./emprendedor.html" class="menu-li_a">Pack emprendedor</a></li>
-                        <li><a href="./experto.html" class="menu-li_a">Pack experto</a></li>
-                        <li><a href="./personalizado.html" class="menu-li_a">Pack epersonalizado</a></li>
+                        <li class="menu-li"><a href="#portfolio" class="menu-li_a">Portfolio</a></li>
                     </ul>
                 </li>
-                <li class="menu-li"><a href="#portfolio-index" class="menu-li_a">Portfolio</a></li>
+                <li class="menu-li menu-li_drop"><a href="#" class="menu-li_a menu-drop">Servicios</a>
+                    <ul class="menu-list_drop">
+                        <li><a href="./experto.html#seccion-emprendedor_id" class="menu-li_a">Pack emprendedor</a></li>
+                        <li><a href="./experto.html#seccion-experto_id" class="menu-li_a">Pack experto</a></li>
+                        <li><a href="./personalizado.html" class="menu-li_a">Pack personalizado</a></li>
+                    </ul>
+                </li>
                 <li class="menu-li"><a href="#contacto-index" class="menu-li_a">Contacto</a></li>
+                <li class="menu-li"><a href="./faq.html" class="menu-li_a">FAQ</a></li>
             </ul>
         </div>
     </nav>
@@ -36,219 +45,307 @@
     <!-- menu hamburguesa -->
     <div class="menu-hamburguesa">
         <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-eze">
-            <a href="./index.html"><img src="./recursos/imgs/Logo LUBARA.webp" alt="logo lubara mobile personalizado" class="logo_nav"></a>
-            <button class="navbar-toggler nav-toggler_eze" type="button" data-toggle="collapse" 
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-                    aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon navbar-toggler-icon_eze"></span>
+            <a href="./index.html"><img src="./recursos/imgs/Logo LUBARA.webp" alt="logo lubara mobile"
+                    class="logo_nav"></a>
+            <button class="navbar-toggler nav-toggler_eze" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon navbar-toggler-icon_eze"></span>
             </button>
-          
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="menu_list-mobile">
-                    <li class="menu-li menu-li_mobile"><a href="#nosotros-index" class="menu-li_a"">Nosotros</a></li>
+                    <li class="menu-li menu-li_mobile menu-li_drop"><a href="#nosotros-index" class="menu-li_a"">Nosotros</a>
+                            <ul class=" menu-list_drop">
+                                <li class="menu-li"><a href="#portfolio" class="menu-li_a">Portfolio</a></li>
+                            </ul>
+                    </li>
                     <li class="menu-li menu-li_drop menu-li_mobile"><a href="#" class="menu-li_a menu-drop">Servicios</a>
                         <ul class="menu-list_drop">
-                            <li><a href="./emprendedor.html" class="menu-li_a">Pack emprendedor</a></li>
-                            <li><a href="./experto.html" class="menu-li_a">Pack experto</a></li>
+                            <li><a href="./experto.html#seccion-emprendedor_id" class="menu-li_a">Pack emprendedor</a></li>
+                            <li><a href="./experto.html#seccion-experto_id" class="menu-li_a">Pack experto</a></li>
+                            <li><a href="./personalizado.html" class="menu-li_a">Pack personalizado</a></li>
                         </ul>
                     </li>
-                    <li class="menu-li menu-li_mobile"><a href="#portfolio-index" class="menu-li_a">Portfolio</a></li>
+                    <li class="menu-li menu-li_mobile"><a href="./faq.html" class="menu-li_a">FAQ</a></li>
                     <li class="menu-li menu-li_mobile"><a href="#contacto-index" class="menu-li_a">Contacto</a></li>
                 </ul>
             </div>
-          </nav>
+        </nav>
     </div>
-      <!-- Sidenav -->
-      <!-- fin de menu hamburguesa -->
+
+    <!-- fin de menu hamburguesa -->
     <header class="header_container">
         <div class="titulo-container">
-            <h1 class="titulo-principal">Pack<br><span class="typewriter-text lead typing-effect">personalizado</span></h1>
-            </div>
+            <h1 class="titulo-principal">Pack<br><span class="typewriter-text lead typing-effect">personalizado</span>
+            </h1>
+        </div>
         </div>
     </header>
     <main>
         <div>
             <h2 class="personalizado-h1">ARMA TU PRESUPUESTO</h2>
             <div class="personalizado-text">
-                <h3 "nosotros-perso-h1"><span class="personalizado-bold">¿Ninguna de las opciones anteriores cuadra con tu negocio?</span></h3>
+                <h3 "nosotros-perso-h1"><span class="personalizado-bold">¿Ninguna de las opciones anteriores cuadra con
+                        tu negocio?</span></h3>
                 <p>
-                Entonces aquí, en el pack personalizado te dejamos un simulador de presupuesto para que armes la página a tu medida.</p>
-            <p>Si tienes dudas sobre algún servicio, concepto o adicional, puedes dejarnos un mensaje al final junto con tus datos de contacto para que lo revisemos y te enviemos un presupuesto acorde a tu marca. No olvides contarnos sobre tu proyecto, puedes copiar los links de tus redes sociales  si quieres.</p>
-            <p>¡Anímate!</p>
-        </div>
-        <div class="personalizado-container">
-            <div class="form-container">
-                <form action="post" class="formulario">
-                    <ul>
-                        <li><label for="pagina">1. TIPO DE PÁGINA</label>
-                            <p>¿Que tipo de pagina quieres?</p>
-                        <select name="opciones1" id="opciones1">
-                          <option value="tipo">Seleccione un tipo de pagina</option>
-                          <option value="home">Home page web o presencia online</option>
-                          <option value="portfolio">Portfolio online (hasta 5 trabajos)</option>
-                          <option value="catalogo">Catalogo online (hasta 50 productos)</option>
-                          <option value="tienda">Tienda online (hasta 50 productos)</option>  
-                        </select></li>
-                        <li><label for="paginas_adi">2. PÁGINAS ADICIONALES</label>
-                            <p>¿Quieres páginas adicionales? Compuesta por hasta 5 secciones? (Entendiendo sección como lo que cabe en 1 pantalla de ordenador sin hacer scroll)</p>
-                            <select name="opciones2" id="paginas_adi">
-                                <option value="addnin">Ninguna</option>
-                                <option value="add1">1</option>
-                                <option value="add2">2</option>
-                                <option value="add3">3</option>
-                                <option value="add4">4</option>
-                                <option value="add5">5</option>
-                                <option value="add6">6</option>
-                                <option value="add7">7</option>
-                                <option value="add8">8</option>
-                                <option value="add9">9</option>
-                                <option value="add10">10</option>   
-                            </select>
-                        </li>
-                        <li><label for="contenido">3. CONTENIDO</label>
-                            <p>¿Qué imágenes y textos tendrá la web? Si ya tienes una idea, podemos guiarte en la creación de textos y en la búsqueda de imágenes, sino podemos encargarnos nosotros.</p>
-                            <input type="radio" name="contenido" id="contenido" value="imagenesYtextos"> <label> Si, tengo imagenes y textos</label><br>
-                            <input type="radio" name="contenido" id="contenido" value="soloTextos"> <label> Tengo sólo textos</label><br>
-                            <input type="radio" name="contenido" id="contenido" value="soloImagenes"> <label> Tengo sólo imagenes</label><br>
-                            <input type="radio" name="contenido" id="contenido" value="nada"> <label> No tengo nada</label>
-                        </li>
-                        <li><label for="diseño">4. DISEÑO WEB</label>
-                            <p>¿Qué arquitectura tendrá la página? Puedes elegir entre diversas plantillas de Wordpress o podremos personalizarla 100% a tu medida, en base a tus necesidades y a tu marca.</p>
-                            <input type="radio" name="diseño" id="diseño" value="estandar"> <label> Quiero una plantilla estandar</label><br>
-                            <input type="radio" name="diseño" id="diseño" value="personalizada"> <label> Quiero una plantilla personalizada</label><br>
-                            <input type="radio" name="diseño" id="diseño" value="medida"> <label> A medida</label><br>
-                        </li>
-                        <li><label for="blog">5. BLOG O NOTICIAS</label>
-                            <p>¿Quieres mantener actualizados a tus clientes? En esta página podrás crear entradas para mantener informada a tu comunidad o potenciales clientes, es una buena opción para mejorar el posicionamiento de tu marca y de la web.</p>
-                            <input type="radio" name="blog" id="blog" value="si"> <label> Si, quiero.</label><br>
-                            <input type="radio" name="blog" id="blog" value="nombre"> <label> No, no quiero.</label><br>
-
-                        </li>
-                        <li><label for="correos">6. CORREOS CORPORATIVOS</label>
-                            <p>¿Cuántos correos de la marca necesitarás? Los correos corporativos le otorgan legitimidad a la marca, si trabajas con varias personas, tener un correo por sector sería apropiado.</p>
-                            <input type="radio" name="correos" id="correos" value="2"> <label>2 correos</label><br>
-                            <input type="radio" name="correos" id="correos" value="3"> <label>3 correos</label><br>
-                            <input type="radio" name="correos" id="correos" value="1"> <label>1 correos</label><br>
-                            <input type="radio" name="correos" id="correos" value="4"> <label>4 correos</label><br>
-                            <input type="radio" name="correos" id="correos" value="5"> <label>5 correos</label><br>
-
-                        </li>
-                        <li><label for="legal">7. INFORMACIÓN LEGAL</label>
-                            <p>¿Tienes redactada la información legal? La web deberá tener una página de aviso legal, una de la política de privacidad, y otra de cookies.</p>
-                            <input type="radio" name="legal" id="legal" value="si"> <label>Si, tengo la información legal.</label><br>
-                            <input type="radio" name="legal" id="legal" value="no"> <label>No, necesito que la redacten.</label><br>
-
-                        </li>
-                        <li><label for="adicionales">8. ADICIONALES</label>
-                            <p>¿Tienes redactada la información legal? La web deberá tener una página de aviso legal, una de la política de privacidad, y otra de cookies.</p>
-                            <input type="checkbox" for="adicionales"> <label>Copias de seguridad</label><br>
-                            <input type="checkbox" for="adicionales"> <label>Formulario de contacto</label><br>
-                            <input type="checkbox" for="adicionales"> <label>Redes sociales integradas</label><br>
-                            <input type="checkbox" for="adicionales"> <label>Google Maps integrado</label><br>
-                            <input type="checkbox" for="adicionales"> <label>Calculadora de costos</label>
-
-                        </li>
-
-                        <li><label for="nombre"></label>
-                        <input type="text"placeholder="Nombre" id="nombre" class="contacto-style"></li>
-                        <li><label for="email"></label>
-                        <input type="mail" placeholder="E-mail" class="contacto-style"></li>
-                        <li><label for="telefono"></label>
-                        <input type="tel" id="telefono" placeholder="Telefono (opcional)" class="contacto-style"></li>
-                        <li><label for="opciones"></label>
-                        <li><label for="text_area"></label>
-                        <textarea name="text-area" id="" cols="30" rows="10" class="contacto-style"></textarea></li>
-                        <li><label for="terminos"></label>
-                        <input type="checkbox" name="" id="">He leido y acepto<a href="#"> los terminos y condiciones</a></li>
-                        <input type="submit" value="Enviar">
-                    </ul>
-
-                </form>
+                    Entonces aquí, en el pack personalizado te dejamos un simulador de presupuesto para que armes la
+                    página a tu medida.</p>
+                <p>Si tienes dudas sobre algún servicio, concepto o adicional, puedes dejarnos un mensaje al final junto
+                    con tus datos de contacto para que lo revisemos y te enviemos un presupuesto acorde a tu marca. No
+                    olvides contarnos sobre tu proyecto, puedes copiar los links de tus redes sociales si quieres.</p>
+                <p>¡Anímate!</p>
             </div>
-        </div>
+            <div class="personalizado-container">
+                <div class="form-container">
+                    <form action="post" class="formulario">
+                        <ul>
+                            <li><label for="pagina">1. TIPO DE PÁGINA</label>
+                                <p>¿Que tipo de pagina quieres?</p>
+                                <select name="opciones1" id="opciones1">
+                                    <option value="tipo">Seleccione un tipo de pagina</option>
+                                    <option value="home">Home page web o presencia online</option>
+                                    <option value="portfolio">Portfolio online (hasta 5 trabajos)</option>
+                                    <option value="catalogo">Catalogo online (hasta 50 productos)</option>
+                                    <option value="tienda">Tienda online (hasta 50 productos)</option>
+                                </select>
+                            </li>
+                            <li><label for="paginas_adi">2. PÁGINAS ADICIONALES</label>
+                                <p>¿Quieres páginas adicionales? Compuesta por hasta 5 secciones? (Entendiendo sección
+                                    como lo que cabe en 1 pantalla de ordenador sin hacer scroll)</p>
+                                <select name="opciones2" id="paginas_adi">
+                                    <option value="addnin">Ninguna</option>
+                                    <option value="add1">1</option>
+                                    <option value="add2">2</option>
+                                    <option value="add3">3</option>
+                                    <option value="add4">4</option>
+                                    <option value="add5">5</option>
+                                    <option value="add6">6</option>
+                                    <option value="add7">7</option>
+                                    <option value="add8">8</option>
+                                    <option value="add9">9</option>
+                                    <option value="add10">10</option>
+                                </select>
+                            </li>
+                            <li><label for="contenido">3. CONTENIDO</label>
+                                <p>¿Qué imágenes y textos tendrá la web? Si ya tienes una idea, podemos guiarte en la
+                                    creación de textos y en la búsqueda de imágenes, sino podemos encargarnos nosotros.
+                                </p>
+                                <input type="radio" name="contenido" id="contenido" value="imagenesYtextos"> <label> Si,
+                                    tengo imagenes y textos</label><br>
+                                <input type="radio" name="contenido" id="contenido" value="soloTextos"> <label> Tengo
+                                    sólo textos</label><br>
+                                <input type="radio" name="contenido" id="contenido" value="soloImagenes"> <label> Tengo
+                                    sólo imagenes</label><br>
+                                <input type="radio" name="contenido" id="contenido" value="nada"> <label> No tengo
+                                    nada</label>
+                            </li>
+                            <li><label for="diseño">4. DISEÑO WEB</label>
+                                <p>¿Qué arquitectura tendrá la página? Puedes elegir entre diversas plantillas de
+                                    Wordpress o podremos personalizarla 100% a tu medida, en base a tus necesidades y a
+                                    tu marca.</p>
+                                <input type="radio" name="diseño" id="diseño" value="estandar"> <label> Quiero una
+                                    plantilla estandar</label><br>
+                                <input type="radio" name="diseño" id="diseño" value="personalizada"> <label> Quiero una
+                                    plantilla personalizada</label><br>
+                                <input type="radio" name="diseño" id="diseño" value="medida"> <label> A
+                                    medida</label><br>
+                            </li>
+                            <li><label for="blog">5. BLOG O NOTICIAS</label>
+                                <p>¿Quieres mantener actualizados a tus clientes? En esta página podrás crear entradas
+                                    para mantener informada a tu comunidad o potenciales clientes, es una buena opción
+                                    para mejorar el posicionamiento de tu marca y de la web.</p>
+                                <input type="radio" name="blog" id="blog" value="si"> <label> Si, quiero.</label><br>
+                                <input type="radio" name="blog" id="blog" value="nombre"> <label> No, no
+                                    quiero.</label><br>
+
+                            </li>
+                            <li><label for="correos">6. CORREOS CORPORATIVOS</label>
+                                <p>¿Cuántos correos de la marca necesitarás? Los correos corporativos le otorgan
+                                    legitimidad a la marca, si trabajas con varias personas, tener un correo por sector
+                                    sería apropiado.</p>
+                                <input type="radio" name="correos" id="correos" value="2"> <label>2 correos</label><br>
+                                <input type="radio" name="correos" id="correos" value="3"> <label>3 correos</label><br>
+                                <input type="radio" name="correos" id="correos" value="1"> <label>1 correos</label><br>
+                                <input type="radio" name="correos" id="correos" value="4"> <label>4 correos</label><br>
+                                <input type="radio" name="correos" id="correos" value="5"> <label>5 correos</label><br>
+
+                            </li>
+                            <li><label for="legal">7. INFORMACIÓN LEGAL</label>
+                                <p>¿Tienes redactada la información legal? La web deberá tener una página de aviso
+                                    legal, una de la política de privacidad, y otra de cookies.</p>
+                                <input type="radio" name="legal" id="legal" value="si"> <label>Si, tengo la información
+                                    legal.</label><br>
+                                <input type="radio" name="legal" id="legal" value="no"> <label>No, necesito que la
+                                    redacten.</label><br>
+
+                            </li>
+                            <li><label for="adicionales">8. ADICIONALES</label>
+                                <p>¿Tienes redactada la información legal? La web deberá tener una página de aviso
+                                    legal, una de la política de privacidad, y otra de cookies.</p>
+                                <input type="checkbox" for="adicionales"> <label>Copias de seguridad</label><br>
+                                <input type="checkbox" for="adicionales"> <label>Formulario de contacto</label><br>
+                                <input type="checkbox" for="adicionales"> <label>Redes sociales integradas</label><br>
+                                <input type="checkbox" for="adicionales"> <label>Google Maps integrado</label><br>
+                                <input type="checkbox" for="adicionales"> <label>Calculadora de costos</label>
+
+                            </li>
+
+                            <li><label for="nombre"></label>
+                                <input type="text" placeholder="Nombre" id="nombre" class="contacto-style">
+                            </li>
+                            <li><label for="email"></label>
+                                <input type="mail" placeholder="E-mail" class="contacto-style">
+                            </li>
+                            <li><label for="telefono"></label>
+                                <input type="tel" id="telefono" placeholder="Telefono (opcional)"
+                                    class="contacto-style">
+                            </li>
+                            <li><label for="opciones"></label>
+                            <li><label for="text_area"></label>
+                                <textarea name="text-area" id="" cols="30" rows="10" class="contacto-style"></textarea>
+                            </li>
+                            <li><label for="terminos"></label>
+                                <input type="checkbox" name="" id="">He leido y acepto<a href="#"> los terminos y
+                                    condiciones</a>
+                            </li>
+                            <input type="submit" value="Enviar">
+                        </ul>
+
+                    </form>
+                </div>
+            </div>
 
         </div>
-            <article>
-                <div class="container mt-5">
-                    <div id="videoCarousel" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <video  width="100%" height="100%" autoplay loop>
-                                    <source src="./recursos/videos/VNTOS comp.mp4" type="video/mp4">
-                                    Tu navegador no soporta el tag de video.
-                                </video>
-                            </div>
-                            <div class="carousel-item">
-                                <video  width="100%" height="100%" autoplay loop>
-                                    <source src="./recursos/videos/LMG comp.mp4" type="video/mp4">
-                                    Tu navegador no soporta el tag de video.
-                                </video>
-                            </div>
-                            <div class="carousel-item">
-                                <video  width="100%" height="100%" autoplay loop>
-                                    <source src="./recursos/videos/ram comp.mp4" type="video/mp4">
-                                    Tu navegador no soporta el tag de video.
-                                </video>
-                            </div>
-                            <!-- Agrega más elementos 'carousel-item' según sea necesario -->
+
+        <section>
+            <div class="metodoTrabajo" id="portfolio-emprendedor">
+                <h2>CÓMO TRABAJAMOS</h2>
+                <div class="paso-img_container"><img src="./recursos/imgs/Proceso paso a paso.webp"
+                        alt="proceso de paso a paso experto" class="paso-img"></div>
+            </div>
+            <div class="trabajo-mobile">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active paso-img_container">
+                            <img class="d-block paso-img_mobile" src="./recursos/imgs/Paso 1.webp" alt="First slide">
                         </div>
-                        <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span >
-                        </a>
-                        <a class="carousel-control-next" href="#videoCarousel" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true">
-                        </a>
+                        <div class="carousel-item">
+                            <img class="d-block paso-img_mobile" src="./recursos/imgs/Paso 2.webp" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block paso-img_mobile" src="./recursos/imgs/Paso 3.webp" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block paso-img_mobile" src="./recursos/imgs/Paso 4.webp" alt="Third slide">
+                        </div>
                     </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
                 </div>
-                
+            </div>
+        </section>
 
-          <!-- FIN DE PRUEBA -->
-            </article>
-            <article class="nosotros" id="nosotros-index">
-                
-                <h3>Sobre nosotros</h3>
-                <div class="nosotros-col_container">
-                    <div class="nosotros-img_container"><img src="./recursos/imgs/Logo ppal gris_1.png" alt="imagen seccion nosotros personalizado"></div>
-                    <div class="nosotros-p_container">
-                        <h4>¡Hola! Somos Ludmila y Ezequiel,<br>
-                            fundadores de Lubara</h4>
-                        <p>Lubara es una fusión de nuestra pasión por la programación, la creación de contenido, diseñar páginas web y la redacción de textos publicitarios. Creemos que la combinación de estos conocimientos es fundamental para crear un sitio web exitoso que haga rendir la inversión.<br>
-
-                            Nuestro objetivo es poner la tecnología a tu alcance, transformarla en tu aliado y en el motor que hará crecer tu marca.<br>
-
-                            Nosotros nos encargaremos de digitalizar tu negocio y de enseñarte a gestionarlo para que no tengas que depender de nadie.<br>
-
-                            Cuando eliges trabajar con nosotros, estás eligiendo calidad, profesionalismo, y atención completamente personalizada.<br>
-
-                            Todo lo que tú y tu marca se merecen.</p>
+        <article class="portfolio" id="portfolio">
+            <div class="container mt-5">
+                <div id="videoCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <video width="100%" height="100%" autoplay loop>
+                                <source src="./recursos/videos/VNTOS comp.mp4" type="video/mp4">
+                                Tu navegador no soporta el tag de video.
+                            </video>
+                        </div>
+                        <div class="carousel-item">
+                            <video width="100%" height="100%" autoplay loop>
+                                <source src="./recursos/videos/LMG comp.mp4" type="video/mp4">
+                                Tu navegador no soporta el tag de video.
+                            </video>
+                        </div>
+                        <div class="carousel-item">
+                            <video width="100%" height="100%" autoplay loop>
+                                <source src="./recursos/videos/ram comp.mp4" type="video/mp4">
+                                Tu navegador no soporta el tag de video.
+                            </video>
+                        </div>
                     </div>
+                    <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#videoCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true">
+                    </a>
                 </div>
-            </article>
+            </div>
+
+
+            <!-- FIN DE PRUEBA -->
+        </article>
+        <article class="nosotros" id="nosotros-index">
+
+            <h3>Sobre nosotros</h3>
+            <div class="nosotros-col_container">
+                <div class="nosotros-img_container"><img src="./recursos/imgs/Logo ppal gris_1.png"
+                        alt="imagen seccion nosotros personalizado"></div>
+                <div class="nosotros-p_container">
+                    <h4>¡Hola! Somos Ludmila y Ezequiel,<br>
+                        fundadores de Lubara</h4>
+                    <p>Lubara es una fusión de nuestra pasión por la programación, la creación de contenido, diseñar
+                        páginas web y la redacción de textos publicitarios. Creemos que la combinación de estos
+                        conocimientos es fundamental para crear un sitio web exitoso que haga rendir la inversión.<br>
+
+                        Nuestro objetivo es poner la tecnología a tu alcance, transformarla en tu aliado y en el motor
+                        que hará crecer tu marca.<br>
+
+                        Nosotros nos encargaremos de digitalizar tu negocio y de enseñarte a gestionarlo para que no
+                        tengas que depender de nadie.<br>
+
+                        Cuando eliges trabajar con nosotros, estás eligiendo calidad, profesionalismo, y atención
+                        completamente personalizada.<br>
+
+                        Todo lo que tú y tu marca se merecen.</p>
+                </div>
+            </div>
+        </article>
         </div>
     </main>
     <div class="contacto-container">
-        <div class="form-title"><h3>hagamos crecer tu negocio,<br>
-        <span>hablemos sobre tu proyecto</span></h3></div>
+        <div class="form-title">
+            <h3>hagamos crecer tu negocio,<br>
+                <span>hablemos sobre tu proyecto</span>
+            </h3>
+        </div>
         <div class="form-container">
             <form action="post" class="formulario">
                 <ul>
                     <li><label for="nombre"></label>
-                    <input type="text"placeholder="Nombre" id="nombre" class="contacto-style"></li>
+                        <input type="text" placeholder="Nombre" id="nombre" class="contacto-style">
+                    </li>
                     <li><label for="email"></label>
-                    <input type="mail" placeholder="E-mail" class="contacto-style"></li>
+                        <input type="mail" placeholder="E-mail" class="contacto-style">
+                    </li>
                     <li><label for="telefono"></label>
-                    <input type="tel" id="telefono" placeholder="Telefono (opcional)" class="contacto-style"></li>
+                        <input type="tel" id="telefono" placeholder="Telefono (opcional)" class="contacto-style">
+                    </li>
                     <li><label for="opcion"></label>
-                    <select name="opciones" id="opciones" class="contacto-style">
-                        <option value="consulta">consulta</option>
-                        <option value="comerciante">Pack comerciante</option>
-                        <option value="experto">Pack experto</option>
-                        <option value="personalizado">Personalizado</option>
-                    </select></li>
+                        <select name="opciones" id="opciones" class="contacto-style">
+                            <option value="consulta">consulta</option>
+                            <option value="comerciante">Pack comerciante</option>
+                            <option value="experto">Pack experto</option>
+                            <option value="personalizado">Personalizado</option>
+                        </select>
+                    </li>
                     <li><label for="text_area"></label>
-                    <textarea name="text-area" id="" cols="30" rows="10" class="contacto-style"></textarea></li>
+                        <textarea name="text-area" id="" cols="30" rows="10" class="contacto-style"></textarea>
+                    </li>
                     <li><label for="terminos"></label>
-                    <input type="checkbox" name="" id="">He leido y acepto<a href="#"> los terminos y condiciones</a></li>
+                        <input type="checkbox" name="" id="">He leido y acepto<a href="#"> los terminos y
+                            condiciones</a>
+                    </li>
                 </ul>
             </form>
         </div>
@@ -256,52 +353,78 @@
     <footer>
         <div class="footer" id="contacto-index">
             <div class="footer-container">
-                    <div class="footer_logo"><img src="./recursos/imgs/Logo ppal gris_1.png" alt="logo footer personalizado"></div>
-                    <div class="footer_contacto">
-                        <ul>
-                            <li><p>Teléfono: +34 611 41 78 65</p></li>
-                            <li><p>Whatsapp: +34 611 75 15 89</p></li>
-                            <li><p>E-mail: info@lubarawebdesign.com</p></li>
-                            <li><p>Málaga, Andalucía, España</p></li>
-                        </ul>
-                    </div>
-                    <div class="footer_redes">
-                        <a href="https://facebook.com" contact-icon><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook-filled" width="50" height="50" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 2a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -.883 .993l-.117 .007h-3v1h3a1 1 0 0 1 .991 1.131l-.02 .112l-1 4a1 1 0 0 1 -.858 .75l-.113 .007h-2v6a1 1 0 0 1 -.883 .993l-.117 .007h-4a1 1 0 0 1 -.993 -.883l-.007 -.117v-6h-2a1 1 0 0 1 -.993 -.883l-.007 -.117v-4a1 1 0 0 1 .883 -.993l.117 -.007h2v-1a6 6 0 0 1 5.775 -5.996l.225 -.004h3z" stroke-width="0" fill="#B3B2B2" /></svg></a>
-                        <a href="https://instagram.com" class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="50" height="50" viewBox="0 0 24 24" stroke-width="2" stroke="#B3B2B2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /><path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M16.5 7.5l0 .01" /></svg></a>
-                    </div>
-                
+                <div class="footer_logo"><img src="./recursos/imgs/Logo ppal gris_1.png"
+                        alt="logo footer personalizado"></div>
+                <div class="footer_contacto">
+                    <ul>
+                        <li>
+                            <p>Teléfono: +34 611 41 78 65</p>
+                        </li>
+                        <li>
+                            <p>Whatsapp: +34 611 75 15 89</p>
+                        </li>
+                        <li>
+                            <p>E-mail: info@lubarawebdesign.com</p>
+                        </li>
+                        <li>
+                            <p>Málaga, Andalucía, España</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_redes">
+                    <a href="https://facebook.com" contact-icon><svg xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-brand-facebook-filled" width="50" height="50"
+                            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M18 2a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -.883 .993l-.117 .007h-3v1h3a1 1 0 0 1 .991 1.131l-.02 .112l-1 4a1 1 0 0 1 -.858 .75l-.113 .007h-2v6a1 1 0 0 1 -.883 .993l-.117 .007h-4a1 1 0 0 1 -.993 -.883l-.007 -.117v-6h-2a1 1 0 0 1 -.993 -.883l-.007 -.117v-4a1 1 0 0 1 .883 -.993l.117 -.007h2v-1a6 6 0 0 1 5.775 -5.996l.225 -.004h3z"
+                                stroke-width="0" fill="#B3B2B2" />
+                        </svg></a>
+                    <a href="https://instagram.com" class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-brand-instagram" width="50" height="50"
+                            viewBox="0 0 24 24" stroke-width="2" stroke="#B3B2B2" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                            <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                            <path d="M16.5 7.5l0 .01" />
+                        </svg></a>
+                </div>
+
                 <div class="footer_links">
                     <a href="./cookies.html">Politica de cookies</a>
                     <a href="./privacidad.html">Politica de privacidad</a>
                     <a href="./aviso.html">Aviso legal</a>
                 </div>
-        </div>
+            </div>
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<!-- EFECTO MAQUINA DE ESCRIBIR -->
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        var text = document.querySelector('.typewriter-text');
-        var textContent = text.textContent;
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- EFECTO MAQUINA DE ESCRIBIR -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var text = document.querySelector('.typewriter-text');
+            var textContent = text.textContent;
 
-        text.textContent = '';
+            text.textContent = '';
 
-        for (var i = 0; i < textContent.length; i++) {
-            (function (i) {
-                setTimeout(function () {
-                    text.textContent += textContent[i];
-                }, 100 * i);
-            })(i);
-        }
-    });
-</script>
-<!-- FIN EFECTO MAQUINA DE ESCRIBIR -->
+            for (var i = 0; i < textContent.length; i++) {
+                (function (i) {
+                    setTimeout(function () {
+                        text.textContent += textContent[i];
+                    }, 100 * i);
+                })(i);
+            }
+        });
+    </script>
+    <!-- FIN EFECTO MAQUINA DE ESCRIBIR -->
 
 
 
 
 </body>
+
 </html>
