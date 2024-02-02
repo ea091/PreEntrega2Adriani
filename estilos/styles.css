@@ -1089,4 +1089,51 @@ img {
 
 .metodoTrabajo {
   margin-top: 90px;
+}
+
+.animated {
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-top: 95px;
+  margin-bottom: 60px;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+.animated2 {
+  background-image: url(/css/images/logo.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-top: 95px;
+  margin-bottom: 60px;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+}
+@keyframes rotateInDownRight {
+  0% {
+    transform-origin: right bottom;
+    transform: rotate(90deg);
+    opacity: 0;
+  }
+  100% {
+    transform-origin: right bottom;
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+.rotateInDownRight {
+  animation-name: rotateInDownRight;
 }/*# sourceMappingURL=styles.css.map */
